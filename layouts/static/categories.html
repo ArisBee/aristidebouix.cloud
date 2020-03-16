@@ -1,0 +1,20 @@
+{{ define "main" -}}
+<main role="main" class="content">
+<a class="btn home" href="{{ .Site.BaseURL | relLangURL }}" title="{{ i18n "back_to_home" }}">&laquo; {{ i18n "back_to_home" }}</a>
+<br><br>
+<article class="post">
+    <h2>{{ i18n "categories" }}</a></h2>
+    <ul>
+	{{ $lang := .Site.Language.Lang}}
+    {{ range $key, $value := .Site.Taxonomies.categories }}
+		<li>
+			<a href="/{{ $lang }}/categories/{{ $key | urlize }}">{{ $key | title }} ({{ $value.Count }})</a> 
+		</li>
+    {{ end }}
+	</ul>
+
+<a href="https://oborona.digital/wp-content/uploads/2019/02/OboronaDigital-hor.jpg" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey rollover this-ready" data-large_image_width="768" data-large_image_height="100"><img src="https://oborona.digital/wp-content/uploads/2019/02/OboronaDigital-hor.jpg" class="vc_single_image-img attachment-large" alt="" srcset="https://oborona.digital/wp-content/uploads/2019/02/OboronaDigital-hor.jpg 768w, https://oborona.digital/wp-content/uploads/2019/02/OboronaDigital-hor-300x39.jpg 300w" sizes="(max-width: 768px) 100vw, 768px" data-dt-location="https://oborona.digital/join/oboronadigital-hor/" width="768" height="100"><i></i></a>
+
+</article>	
+</main>
+{{- end }}

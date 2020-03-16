@@ -1,0 +1,30 @@
+<aside class="author">
+  <a href="{{ .Site.BaseURL | relLangURL }}/about" ><img class="profile-image" src="{{ .Site.Params.avatar | absURL }}" alt="{{ .Site.Params.site_author }}" /></a>
+  <p class="name">{{ i18n "by" }} 
+  <a rel="me" href="https://mastodon.cloud/@abouix" target="_blank"><strong>{{ .Site.Params.site_author }}</strong></a></p>
+  <p class="address">{{ .Site.Params.location }}</p>
+  <p class="description">{{ .Site.Params.site_author_description }}</p>
+  <ul class="social">
+    {{ partial "social" . }}
+  </ul>
+  <br><br>
+  <button class="badger-button button-badge button--rayen button--border-thick button--text-thick button--size-m" data-text={{ i18n "give" }} data-to="bitcoincash:{{ .Site.Params.donation }}" data-satoshis="600000"><span>{{ i18n "donation" }}</span></button> 
+  <br>
+  <p class="link">
+  <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=4&t=c&d=2018-11-15&ci=AWS00296811" target="_blank"><img src="/img/badge-s-pro.png" alt="AWS, Solutions Architect Pro, digital badge"></a>
+  <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=7&t=c&d=2018-02-13&ci=AWS00296811" target="_blank"><img src="/img/badge-sec.png" alt="AWS, Security Specialty, digital badge"></a>
+  </p>
+  <p class="link"><a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2017-09-11&ci=AWS00296811" target="_blank"><img src="/img/badge.png" alt="AWS, Solutions Architect, digital badge"></a>
+  &nbsp <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2018-08-03&ci=AWS00296811" target="_blank"><img src="/img/badge-dev.png" alt="AWS, Developer Associate, digital badge"></a>
+  &nbsp <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=3&t=c&d=2018-07-30&ci=AWS00296811" target="_blank"><img src="/img/badge-ops.png" alt="AWS, SysOps, digital badge"></a>
+  </p>
+  <p class="link">
+  <a href="https://www.youracclaim.com/badges/80f26afb-5858-436f-9532-071dab06a61c/linked_in_profile" target="_blank"><img src="/img/microsoft365-security-administrator-associate.png" alt="Microsoft 365 Securit Administrator Associate"></a>
+  </p>
+  <br><br>
+
+<a href="https://u.fsf.org/upcycle"><img src="https://static.fsf.org/nosvn/windows/winupcycle_text.png" width="300" alt="Upcycle Windows 7 petition image"></a>  
+
+   <script src="/js/bitcoin-badger.js"></script>
+
+</aside>

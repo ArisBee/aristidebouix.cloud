@@ -1,0 +1,10 @@
+modalID: 8
+title: DevSecOps implementatie in een CCOE 
+subtitle: Definitie en implementatie van Security Automation in de DevOps processen van een verzekeringsmaatschappij.
+date: 2018
+img: cloud-ops.jpg
+preview: cloud-ops-preview.jpg
+client: Insurance
+clientLink: "#"
+category: DevSecOps
+description: "Onder de CCOE (Cloud Center for Operational Excellence) van een internationaal verzekeringsbedrijf, heb ik de implementatie van beveiligingsprocedures en controles toegepast op de groep AWS omgevingen. Deze missie had zowel **een technische component** met de ontwikkeling en integratie van nieuwe services in een AGILE omgeving als **een organisatorische component**, waaronder de training van interne medewerkers voor deze nieuwe procesen en een nauwe samenwerking met het DevOps team. </br> </br> Tijdens deze missie heb ik de volgende technologieën en services gebruikt: Splunk, Terraform, Jenkins, Packer, CyberArk Conjur, AWS Config, lambda, API Gateway, SNS, SQS en ServiceNow"

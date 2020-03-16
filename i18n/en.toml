@@ -1,0 +1,68 @@
+[donation]
+other = "Buy me a Coffee"
+
+[give]
+other = "Donate 1€"
+
+[by]
+other = "by"
+
+[read_more]
+other = "Read more"
+
+[back_to_home]
+other = "Back to home"
+
+[posted_on]
+other = "Posted on"
+
+[tagged_in]
+other = "Tagged in"
+
+[comments]
+other = "Comments"
+
+[reading_time]
+other = "mins read"
+
+[search]
+other = "Browse posts"
+
+[title]
+other = "Share this article:"
+
+[twitter]
+other = "Tweet this article"
+
+[linkedin]
+other = "Share on Linkedin"
+
+[gplus]
+other = "Share on Google+"
+
+[vkontakte]
+other = "Share on Vkontakte"
+
+[telegram]
+other = "Share on Telegram"
+
+[newer]
+other = "Newer"
+
+[older]
+other = "Older"
+
+[page]
+other = "Page"
+
+[of]
+other = "of"
+
+[page_not_found]
+other = "404 - page not found"
+
+[subtitle]
+other = "The content you're looking for doesn't seem to exist."
+
+[categories]
+other = "Posts Categories:"

@@ -1,0 +1,11 @@
+{{ define "main" -}}
+    <main role="main" class="content">
+        <a class="btn home" href="{{ .Site.BaseURL | relLangURL }}" title="{{ i18n "article.back_to_home" }}">&laquo; {{ i18n "article.back_to_home" }}</a>
+        {{ $paginator := .Paginate .Data.Pages }}
+        {{ range $paginator.Pages }}
+            {{ .Render "summary" }}
+        {{ end }}
+        {{ partial "pagination" . }}
+    </main>
+
+{{- end }}

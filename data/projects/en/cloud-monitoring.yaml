@@ -1,0 +1,10 @@
+modalID: 5
+title: Cloud Security Monitoring, Application of the ISSP 
+subtitle: Implementation of an ''*Infrastructure as Code*'' solution conforms to the group ISSP requirements 
+date: 2017
+img: aws-monitoring.png
+preview: aws-monitoring-preview.png
+client: Industry
+clientLink: "#"
+category: DevSecOps
+description: "Implementation of a centralized Cloud security monitoring solution specific to AWS environments. Leveraging **AWS SaaS services** and **Infrastructure as Code** capabilities to provide a solution easy to set up and update, based on an **AWS Elasticsearch Cluster** configured with adequate visualizations and dashboards."

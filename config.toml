@@ -1,0 +1,132 @@
+baseurl = "https://aristidebouix.cloud/"
+languageCode = "en-us"
+title = "Aris' Tech journey /blog"
+# Define how many pages appear per site
+paginate = 5
+# Enable comments powered by Disqus by entering your disqus shortname
+disqusShortname = "pachli-1"
+# Enable gogle analytics by entering your tracking code
+googleAnalytics = "UA-114578285-1"
+# Remove this line if you use this theme for a real website.
+# It allows you to preview the theme within the exampleSite folder
+# with the hugo server command
+# themesDir = "../.."
+enableEmoji = true
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[Languages]
+  [Languages.en]
+    weight = 10
+	contentDir = "content/en"
+	[Languages.en.params]
+	  LanguageName = "English"
+  [Languages.nl]
+    weight = 20
+	contentDir = "content/nl"
+    [Languages.nl.params]
+      site_description = "Dit is mijn geweldige Hugo-powered blog, hier zal ik u maandelijkse tech-trucs en tweaks geven om u tijd, productiviteit en privacy te sparen. Klaar voor een ritje?"
+      location = "Ergens in de Cloud"
+	  site_author_description = "Enthousiaste Beveiligingsarchitect"
+	  LanguageName = "Nederlands"
+      [Languages.nl.params.portfolio]
+	    title = "Portfolio"
+        subtitle = "Een niet-exhaustieve lijst van mijn eerdere werkervaringen."
+		[Languages.nl.params.portfolio.modal]
+		  client = "Cliënt"
+		  date = "Datum"
+		  category = "Categorie"
+		  buttonText = "Afsluiten"
+
+[permalinks]
+	post = "/:year/:month/:title/index.html"
+	
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+
+# Needed to render HTML in markdown files
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+	
+[params]
+  site_author = "Aristide Bouix"
+  site_description = "This is my awesome Hugo powered blog, here I will give you monthly tech tricks and tweaks to save your time, productivity as well as privacy. Ready for a ride?"
+  location = "Somewhere in the Cloud"
+	site_author_description = "Enthusiastic Security Architect"
+	disableSearch = false
+	disableLanguageSwitchingButton = false
+  # Link custom assets relative to /static
+    avatar = "img/profile-image.jpg"
+    header_background = "img/desk.jpg"
+    header_title = "Ari's Tech journey /blog"
+    copyright = "Aristide Bouix -- Powered by [Hugo](http://gohugo.io)"
+	images = ["/img/desk.jpg"]
+  custom_css = []
+  custom_js  = []
+
+    # Enable gogle analytics by entering your tracking code
+    google_analytics = "UA-114578285-1"
+
+    # Set up your BCH donation address
+      donation = "qr9svcxpzkzg25d9xsyytl4yvk9v5xxs0yy0mu6h0g"
+	
+	[params.twitter]
+		username = "Kharkovlanok"
+
+	[params.logo]
+		url = "/img/profile-image.jpg"
+		width = 127
+		height = 40
+
+	[params.image]
+		url = "/img/desk.jpg"
+		width = 800
+		height = 600
+
+[social]
+    # Add your social network accounts to the profile section on the left
+    # by entering your username. The links to your account will be
+    # create automatically.
+    twitter   = "Kharkovlanok"
+    facebook  = ""
+    linkedin  = "aristide-bouix"
+    behance   = ""
+    dribbble  = ""
+    instagram = ""
+    github    = "Kharkovlanok"
+    gplus     = ""
+	  email     = "webmaster@arisidebouix.cloud"
+	
+  # Portfolio section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Portfolio"
+    subtitle = "A nonexhaustive list of my past working experiences."
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close"
+
+	
+[outputFormats.Algolia]
+	baseName = "algolia"
+	isPlainText = true
+	mediaType = "application/json"
+	notAlternative = true
+
+[params.algolia]
+	vars = ["title", "summary", "date", "publishdate", "expirydate", "relpermalink"]
+	params = ["categories", "tags"]
+
+[outputs]
+	home = [ "HTML", "RSS", "JSON", "Algolia"]
+	

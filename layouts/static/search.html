@@ -1,0 +1,40 @@
+{{ define "main" -}}
+<main role="main" class="content">
+<a class="btn home" href="{{ .Site.BaseURL | relLangURL }}" title="{{ i18n "back_to_home" }}">&laquo; {{ i18n "back_to_home" }}</a>
+<br><br>
+<article class="post">
+
+	 <div id="search-box"><!-- SearchBox widget will appear here --></div>
+	 <!-- include algolia logo -->
+	 <img src="/img/algolia.png" style="width:8%;"></img>
+
+	 <div id="hits" class="my-4">
+	<!-- Hits widget will appear here -->
+	 </div>
+
+	 <div id="pagination">
+	<!-- Pagination widget will appear here -->
+	 </div>
+	 
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.7.1/dist/instantsearch.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.7.1/dist/instantsearch-theme-algolia.min.css">
+	<style>
+	mark {
+	  padding: 0;
+	}
+	</style>
+
+	<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.7.1"></script>
+	<script src="/js/search.js"></script>
+
+<a href="https://oborona.digital/wp-content/uploads/2019/02/OboronaDigital-hor.jpg" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey rollover this-ready" data-large_image_width="768" data-large_image_height="100"><img src="https://oborona.digital/wp-content/uploads/2019/02/OboronaDigital-hor.jpg" class="vc_single_image-img attachment-large" alt="" srcset="https://oborona.digital/wp-content/uploads/2019/02/OboronaDigital-hor.jpg 768w, https://oborona.digital/wp-content/uploads/2019/02/OboronaDigital-hor-300x39.jpg 300w" sizes="(max-width: 768px) 100vw, 768px" data-dt-location="https://oborona.digital/join/oboronadigital-hor/" width="768" height="100"><i></i></a>
+
+</article>	
+</main>
+{{- end }}
+
+
+	
+
+
+

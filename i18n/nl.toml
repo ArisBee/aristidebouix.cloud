@@ -1,0 +1,68 @@
+[donation]
+other = "Koop me een Koffie"
+
+[give]
+other = "Schenk 1€"
+
+[by]
+other = "van"
+
+[read_more]
+other = "Lees verder"
+
+[back_to_home]
+other = "Terug"
+
+[posted_on]
+other = "Geplaatst op"
+
+[tagged_in]
+other = "Getagd in"
+
+[comments]
+other = "Opmerkingen"
+
+[reading_time]
+other = "mins lezen"
+
+[search]
+other = "Doorbladeren posts"
+
+[title]
+other = "Deel dit artikel:"
+
+[twitter]
+other = "Tweet dit artikel"
+
+[linkedin]
+other = "Deel op Linkedin"
+
+[gplus]
+other = "Deel op Google+"
+
+[vkontakte]
+other = "Deel op Vkontakte"
+
+[telegram]
+other = "Deel op Telegram"
+
+[newer]
+other = "Nieuwer"
+
+[older]
+other = "Ouder"
+
+[page]
+other = "Pagina"
+
+[of]
+other = "van"
+
+[page_not_found]
+other = "404 - pagina niet gevonden"
+
+[subtitle]
+other = "De inhoud waarnaar u op zoek bent lijkt niet te bestaan."
+
+[categories]
+other = "Posts Categorieën:"

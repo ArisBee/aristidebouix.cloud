@@ -1,0 +1,10 @@
+modalID: 7
+title: IT Project Management 
+subtitle: Participation in the definition of a Million Euro Project aiming to raise the overall information security level of a major Industrial Company 
+date: 2018
+img: project-main.jpg
+preview: project-main-preview.jpg
+client: Industry
+clientLink: "#"
+category: IT Project Management
+description: "Lead in the definition of a three years project aimed to increase the overall information security level of an International Industrial Corporation.<br><br>This project had three different components, two of them were related to **user identity federation** across the Group as well as **Identity and Access Management**, my part was linked to an **enlargement of the scope of collected logs** for the group SOC service. I had to organize workshops with different application owners across the organization to confirm the exact perimeter of each of those applications (not always up to date in the group CMDB) with the number of machines, their installed operating systems, middlewares, and softwares."

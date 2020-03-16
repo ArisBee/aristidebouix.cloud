@@ -1,0 +1,14 @@
+
+{{ define "main" -}}
+    <main role="main" class="content">
+    <a class="btn home" href="{{ .Site.BaseURL | relLangURL }}" title="{{ i18n "back_to_home" }}">&laquo; {{ i18n "back_to_home" }}</a>
+    <h2>{{ .Title }}:</a>
+    <ul>
+    {{ $data := .Data }} {{ range $key, $value := .Data.Terms.ByCount }}
+        <li>
+            <a href="{{ $value.Name | urlize }}">{{ $value.Name }} ({{ $value.Count }})</a>
+        </li>
+    {{ end }}
+    </ul>
+    </main>
+{{- end }}

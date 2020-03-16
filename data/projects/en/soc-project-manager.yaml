@@ -1,0 +1,10 @@
+modalID: 6
+title: SOC Governance 
+subtitle: Several smaller projects to manage for the SOC and CSIRT services of a major Industrial company. 
+date: 2017 / 2018
+img: project-manage.jpg
+preview: project-manage-preview.jpg
+client: Industry
+clientLink: "#"
+category: SOC Governance
+description: "Governance and Project Management of an externalized SOC service from client side. This mission included the review of collected logs, the integration of new sources (MDM, EDR, CASB, AWS, Azure, IPAM, CyberArk) with the definition of associated detection rules and use cases as well as the enhancement of already implemented correlation rules in **Qradar SIEM** engine."

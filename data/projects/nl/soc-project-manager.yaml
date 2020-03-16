@@ -1,0 +1,10 @@
+modalID: 6
+title: SOC Governance 
+subtitle: Verschillende kleinere projecten om te beheren voor de SOC en CSIRT services van een groot industrieel bedrijf. 
+date: 2017 / 2018
+img: project-manage.jpg
+preview: project-manage-preview.jpg
+client: Industry
+clientLink: "#"
+category: SOC Governance
+description: "Governance en projectbeheer van een externe SOC service van mijn klant. Deze missie omvatte de beoordeling van verzamelde log, de integratie van nieuwe bronnen (MDM, EDR, CASB, AWS, Azure, IPAM, CyberArk) met de definitie van bijbehorende detectieregels en use cases, evenals de verbetering van reeds geïmplementeerde correlatieregels in **Qradar SIEM**."

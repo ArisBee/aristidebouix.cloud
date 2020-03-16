@@ -1,0 +1,10 @@
+modalID: 1
+title: Django lead developer 
+subtitle: Ontwikkeling van een cliënt-webplatform voor service-overzicht en pushmeldingen 
+date: 2016
+img: django.jpg
+preview: django-preview.jpg
+client: Managed SOC Service Provider
+clientLink: "#"
+category: Web Development
+description: "Om te voldoen aan de Franse regelgevende organen om hun diensten te verlenen aan *essentiële nationale operatoren* (water, elektriciteit, telecommunicatie ...) en bedrijven die actief zijn in strategische of gevoelige gebieden (banken, gevoelige sectoren ...). Een <b> Security Operations Center Managed Security Service Provider </b> (SOC MSSP) moest een webplatform ontwikkelen om een ​​realtime overzicht van de service aan zijn klanten te bieden. <br> <br> De platformmogelijkheden inbegrepen de visualisatie van de huidige **gebeurtenissen per seconde** en **stroompakketten Capture** en de evolutie van het **gemiddelde gedurende een periode**, het **volgen van beveiligingsbewijzen**, **het verwijderen van wekelijkse en maandelijkse rapporten** evenals **het verzenden van directe meldingen** via sms en/of e-mail in het geval van een Major Incident."
