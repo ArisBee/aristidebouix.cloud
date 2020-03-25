@@ -71,7 +71,17 @@ defaultContentLanguageInSubdir = true
     google_analytics = "UA-114578285-1"
 
     # Set up your BCH donation address
-      donation = "qr9svcxpzkzg25d9xsyytl4yvk9v5xxs0yy0mu6h0g"
+    donation = "qr9svcxpzkzg25d9xsyytl4yvk9v5xxs0yy0mu6h0g"
+  
+  [privacy]
+  # Set the default built-in Disqus and GA templates GDPR compliant
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
 	
 	[params.twitter]
 		username = "Kharkovlanok"
