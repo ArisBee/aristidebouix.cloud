@@ -74,7 +74,7 @@ defaultContentLanguageInSubdir = true
     donation = "qr9svcxpzkzg25d9xsyytl4yvk9v5xxs0yy0mu6h0g"
   
   [privacy]
-  # Set the default built-in Disqus and GA templates GDPR compliant
+  # Privacy tweaks for used buil-in default templates
   [privacy.disqus]
     disable = false
   [privacy.googleAnalytics]
