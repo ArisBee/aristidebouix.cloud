@@ -28,6 +28,25 @@
 </footer>
 
 <script src="{{ "js/plugins.js" | absURL }}"></script>
+<script src="{{ "js/cookieconsent.min.js" | absURL }}" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "theme": "classic",
+  "content": {
+    "message": "{{ i18n "cookies_message" }}", 
+    "dismiss": "{{ i18n "cookies_dismiss" }}", 
+    "href": "{{ .Site.BaseURL | relLangURL  }}/policy/" 
+  }
+});
+</script>
 
 {{ range .Site.Params.custom_js }}
 <link rel="stylesheet" href="{{ . | absURL }}">

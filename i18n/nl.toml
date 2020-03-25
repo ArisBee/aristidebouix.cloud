@@ -66,3 +66,9 @@ other = "De inhoud waarnaar u op zoek bent lijkt niet te bestaan."
 
 [categories]
 other = "Posts Categorieën:"
+
+[cookies_message]
+other = "Deze website maakt gebruik van cookies om de beste ervaring te krijgen."
+
+[cookies_dismiss]
+other = "Ik heb het!"

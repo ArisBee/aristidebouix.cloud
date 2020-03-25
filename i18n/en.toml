@@ -66,3 +66,9 @@ other = "The content you're looking for doesn't seem to exist."
 
 [categories]
 other = "Posts Categories:"
+
+[cookies_message]
+other = "This website uses cookies to ensure you get the best experience."
+
+[cookies_dismiss]
+other = "Got it!"

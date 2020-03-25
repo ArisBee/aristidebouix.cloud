@@ -14,10 +14,10 @@ The following privacy policy is valid for:
 
 ## __Short version of this privacy policy__
 
-* By default, your IP address si processed by the caching servers part of Amazon Cloudfront's service. This is technically necessary to send the site content to your client.
+* By default, your IP address is processed by the caching servers part of Amazon Cloudfront's service. This is technically necessary to send the site content to your client.
 * By default, I do not log any personal data of you. Cloudfront log files are stored in an encrypted dedicated S3 bucket, and deleted after 30 days.
 * I use Google analytics service to know more about your browsing behaviour on the blog, this allows me to optimize the website UX and content.
-* I do not try to identify you and only set one cookie for Google Analytics which is a unique profile ID distributed when you visit the website. On the article where I have enabled Disqus for commenting a few cookies are served from Disqus domain for this functionality. 
+* I do not try to identify you and only set one cookie for Google Analytics which is a unique profile ID distributed when you visit the website. On the articles where I have enabled Disqus for commenting, a few cookies are served from Disqus domain to allow this functionality. 
 * I may serve some ads from the Adex network.
 * Your rights according to the European GDPR are explained in Articles 15–21 and 77 GDPR.
 * In case of any questions related to this privacy policy, feel free to [contact me](mailto:webmaster@aristidebouix.cloud).
@@ -47,16 +47,41 @@ If I talk about your personal data in the following, I mean anything that can be
 
 When you visit my website, your **IP address** and user agent are automatically processed by Amazon Cloudfront. I automatically get this data from your client (e.g., your web browser or RSS/Atom feed reader). Cloudfront needs your IP address to send my contents back to your client. Cloudfront is only a caching service and AWS isn't supposed to retain a copy of the access logs as they are a [GDPR compliant data processor](https://aws.amazon.com/blogs/security/all-aws-services-gdpr-ready/).
 
-
 The legal basis for processing your personal data as explained above is Article 6(1) f GDPR. 
 
-## __Logging__
+### __Logging__
 
-Cloudfront writes information about certain client-side request to so-called log files. I use these log files to detect attack-like behavior and to improve our services. Thos log files are automatically encrypted using S3 server-side-encryption and deleted after 30 days.
+Cloudfront writes information about certain client-side request to so-called log files. I use these log files to detect attack-like behavior and to improve the site services. Those log files are automatically encrypted using S3 server-side-encryption and deleted after 30 days.
 
 ## __Personal data third parties process for me__
 
 The following third parties process personal data for me:
+
+### __Amazon Web Services Inc, USA__
+
+Amazon Web Services, refers as AWS, ([read their privacy policy](https://aws.amazon.com/privacy/?nc1=f_pr)) provides my website's servers. Amazon Web Services may log access attempts (IP address, user agent) for all of its customers (including me) to detect DDoS attacks, attack-like behavior, and so on.
+
+To use AWS, I concluded a data processing agreement according to Article 28 GDPR which is part of their online [Service Terms](https://aws.amazon.com/service-terms/).
+
+The legal basis for processing your personal data is Article 6(1) a GDPR.
+
+### __Google (Alphabet Inc), USA__
+
+I rely on Google ([read their privacy policy](https://www.cloudflare.com/privacypolicy/)) to serve a better font ([fonts.gstatic.com](https://fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImajC7.woff2)) as well as for the Google Analytics service.
+[Google Fonts](https://developers.google.com/fonts/) (GF). GF are high-quality fonts used on this web site, to improve the quality of the final rendered text at your end. This is an essential service for the appearance of the site. For privacy considerations concerning the use of GF you can read [here](https://developers.google.com/fonts/faq#what_does_using_the_google_fonts_api_mean_for_the_privacy_of_my_users).
+I use Google Analytics for aggregated, anonymized website traffic analysis. In order to track your session usage, Google drops a cookie (_ga) with a randomly-generated ClientID in your browser. This ID is anonymized and contains no identifiable information like email, phone number, name, etc. I also send Google your IP Address. I use GA to track aggregated website behavior, such as what pages you looked at, for how long, and so on. This information is important to me for improving the user experience and determining site effectiveness. If you would like to access what browsing information I have - or ask me to delete any GA data - please send me your _ga cookies (For each browser you wish me to delete the associated information) by [email]((mailto:webmaster@aristidebouix.cloud)), once done delete your _ga cookies, and/or install the [Google Analytics Opt-Out Browser Add-On](https://tools.google.com/dlpage/gaoptout).
+
+I concluded a data processing agreement according to Article 28 GDPR with Google.
+
+The legal basis for processing your personal data is Article 6(1) a GDPR.
+
+### __Disqus Inc, USA__
+
+Disqus Inc ([read their privacy policy](https://help.disqus.com/en/articles/1717103-disqus-privacy-policy)) allows user comments in the site's articles. In order to use the service you need to register a Disqus account, access and deletion of your comment can be manage from your Disqus account. I do not serve any ad through Disqus, however their services require the load of a few cookies and javascript from `disqus.com` and `disquscdn.com` domain names.
+
+To use Disqus, I concluded a data processing agreement according to Article 28 GDPR which is part of their online [Terms of Service](https://help.disqus.com/en/articles/1717102-terms-of-service).
+
+The legal basis for processing your personal data is Article 6(1) a GDPR.
 
 ### __Gandi SAS, France ( e-mail only )__
 
@@ -64,9 +89,9 @@ Gandi SAS ([read their privacy policy](https://contract.gandi.net/v5/contracts/3
 
 The legal basis for processing your personal data is Article 6(1) a GDPR. 
 
-### __Algolia Inc, USA__
+### __Algolia Inc, USA ( search bar only )__
 
-Algolia Inc ([read their privacy policy](https://www.algolia.com/policies/privacy/)) is the indexing and searching webservices on which I rely for the [article search functionality]({{< relref "search.md" >}}). As such they only process information that you enter in search querries, I also have access to the input which are hosted by Algolia in [France for a duration of 90 days](https://www.algolia.com/doc/faq/security-privacy/gdpr/). Logs of search queries and operations can be processed outside of the EU but always stay in a system respecting privacy and security. . 
+Algolia Inc ([read their privacy policy](https://www.algolia.com/policies/privacy/)) is the indexing and searching webservice I rely on for the [article search functionality]({{< relref "search.md" >}}). As such they only process information that you enter in search queries, I also have access to the input which are hosted by Algolia in [France for a duration of 90 days](https://www.algolia.com/doc/faq/security-privacy/gdpr/). Logs of search queries and operations can be processed outside of the EU but always stay in a system respecting privacy and security according to [algolia gdpr documentation](https://www.algolia.com/doc/faq/security-privacy/gdpr/). 
 
 The legal basis for processing your personal data is Article 6(1) a GDPR.
 
@@ -78,25 +103,19 @@ The legal basis for processing your personal data is Article 6(1) a GDPR.
 
 ### __Cloudflare Inc, USA__
 
-I use Cloudflare ([read their privacy policy](https://www.cloudflare.com/privacypolicy/)) as a caching service to serve some javascript and css content, for instance to use LaTeX renderer in my technical blog post.
+I use Cloudflare ([read their privacy policy](https://www.cloudflare.com/privacypolicy/)) as a caching service to serve an HTML-to-LaTeX parsing [javascript](https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML) to render mathematics formula in my blogposts. I haven't found a more elegant way to serve this library properly at the moment. You will note that Cloudflare doesn't collect any data for this service.
 
 The legal basis for processing your personal data is Article 6(1) a GDPR.
 
-### __Google, USA__
+### __Bitcoin.com (Saint Bitts LLC), USA__
 
-I rely on Google ([read their privacy policy](https://www.cloudflare.com/privacypolicy/)) to serve me a better font for my site as well as for their Google Analytics service. This last one allow me to have a few insight on the way you read my blog which allows me to optimize my publications.
-
-The legal basis for processing your personal data is Article 6(1) a GDPR.
-
-### __Disqus Inc, USA__
-
-Disqus Inc ([read their privacy policy](https://help.disqus.com/en/articles/1717103-disqus-privacy-policy)) allows me to provide commenting functionnalities on a static website. In order to use the service you need to register a Disqus account, access and deletion of your comment can be manage from your Disqus account. I do not serve any ad through Disqus, however their service require the load of a few cookies and javascript from their domain.
+I only request the following API: `index-api.bitcoin.com` to get the latest BCH/EUR trading rate so you can always give me exactly 1 euro donation with your [badgerwallet](https://badgerwallet.cash/). No personal data is involved. If you wish to make me a donation through the badgerwallet or any other cryptocurrency listed on my About page, your sending cryptocurrency address and the amount of the donation will be recorded on the corresponding blockchain and cannot be erased by me or any other third party.
 
 The legal basis for processing your personal data is Article 6(1) a GDPR.
 
 ### __AdEx Network OÜ, Estonia__
 
-Adex ([read their disclaimer](https://help.adex.network/hc/en-us/articles/360011574480-How-do-you-ensure-the-privacy-of-end-users-)) is an attempt to monetize my website traffic while serving some ads in a less privacy intrusive way. Adex is supposed to not collect any data and only relies on [Contextual Targeting](https://www.adex.network/blog/why-we-use-contextual-targeting/)
+Adex ([read their privacy policy](https://www.adex.network/tos/)) is an attempt to monetize my website traffic while serving some ads in a less privacy intrusive way. Adex relies on [Contextual Targeting](https://www.adex.network/blog/why-we-use-contextual-targeting/), and isn't supposed to collect any personal data. It loads ads from the domain `moonicorn.com`.
 
 The legal basis for processing your personal data is Article 6(1) a GDPR.
 
@@ -134,4 +153,4 @@ This website may link to external sites that are not operated by me. Please be a
 At my discretion, I may change this privacy policy to reflect current acceptable practices. I will take reasonable steps to let users know about changes via the website. Your continued use of this site after any changes to this policy will be regarded as acceptance of my practices around privacy and personal information.
 
 
-This policy is effective as of 22 March 2020.
+This policy is effective as of 25 March 2020.
