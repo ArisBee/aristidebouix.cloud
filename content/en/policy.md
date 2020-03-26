@@ -15,17 +15,17 @@ The following privacy policy is valid for:
 ## __Short version of this privacy policy__
 
 * By default, your IP address is processed by the caching servers part of Amazon Cloudfront's service. This is technically necessary to send the site content to your client.
-* By default, I do not log any personal data of you. Cloudfront log files are stored in an encrypted dedicated S3 bucket, and deleted after 30 days.
-* I use Google analytics service to know more about your browsing behaviour on the blog, this allows me to optimize the website UX and content.
-* I do not try to identify you and only set one cookie for Google Analytics which is a unique profile ID distributed when you visit the website. On the articles where I have enabled Disqus for commenting, a few cookies are served from Disqus domain to allow this functionality. 
-* I may serve some ads from the Adex network.
+* By default, I only have access to [logs provided by Amazon Cloudfront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/AccessLogs.html). Cloudfront log files are stored in an encrypted dedicated S3 bucket, and deleted after 30 days.
+* I use Google Analytics service to know more about your browsing behaviour on the blog, this allows me to optimize the website UX and content.
+* I do not try to identify you and only set one cookie for Google Analytics which is a unique profile ID distributed when you visit the website. Some other technical cookies may be set from Disqus, Report-URI, and Adex.  
+* I serve some ads from the Adex network.
 * Your rights according to the European GDPR are explained in Articles 15–21 and 77 GDPR.
 * In case of any questions related to this privacy policy, feel free to [contact me](mailto:webmaster@aristidebouix.cloud).
 
 ## __Contents__
 
 * [Definitions](#definitions)
-* [Personal data we process](#personal-data-i-process)
+* [Personal data I process](#personal-data-i-process)
 * [Personal data third parties process for me](#personal-data-third-parties-process-for-me)
 * [Accessing my website using mirrors and archives](#accesssing-my-website)
 * [Your rights (Articles 15–20 GDPR)](#your-rights)
@@ -51,7 +51,7 @@ The legal basis for processing your personal data as explained above is Article 
 
 ### __Logging__
 
-Cloudfront writes information about certain client-side request to so-called log files. I use these log files to detect attack-like behavior and to improve the site services. Those log files are automatically encrypted using S3 server-side-encryption and deleted after 30 days.
+Cloudfront writes information about certain client-side request to so-called log files. I use these log files to detect attack-like behavior and to improve the site services. Those log files are automatically encrypted using S3 server-side-encryption (SSE) and deleted after 30 days.
 
 ## __Personal data third parties process for me__
 
@@ -83,6 +83,19 @@ To use Disqus, I concluded a data processing agreement according to Article 28 G
 
 The legal basis for processing your personal data is Article 6(1) a GDPR.
 
+
+### __Report-URI Ltd, UK__
+
+Report-URI ([read their privacy policy](https://report-uri.com/home/privacy_policy)) allows me to redirect failed or suspicious webrequests for analysis. The data collected on Report-URI is anonymized and doesn't contain your IP address or user-agent.
+
+The legal basis for processing your personal data is Article 6(1) a GDPR.
+
+### __AdEx Network OÜ, Estonia__
+
+Adex ([read their privacy policy](https://www.adex.network/tos/)) is an attempt to monetize my website traffic while serving some ads in a less privacy intrusive way. Adex relies on [Contextual Targeting](https://www.adex.network/blog/why-we-use-contextual-targeting/), and isn't supposed to collect any personal data. It loads ads from the domain `moonicorn.com`.
+
+The legal basis for processing your personal data is Article 6(1) a GDPR.
+
 ### __Gandi SAS, France ( e-mail only )__
 
 Gandi SAS ([read their privacy policy](https://contract.gandi.net/v5/contracts/36637/Privacy_Policy_SAS_1.1_en.pdf)) provides my mail server. It isn’t necessary to send me any e-mails to access my blog/content. **If you decide to contact me, you agree that me/Gandi SAS processes your personal data (e.g., name, e-mail address) to answer your request.** I do not use your e-mail address for marketing purposes or tracking. 
@@ -91,13 +104,7 @@ The legal basis for processing your personal data is Article 6(1) a GDPR.
 
 ### __Algolia Inc, USA ( search bar only )__
 
-Algolia Inc ([read their privacy policy](https://www.algolia.com/policies/privacy/)) is the indexing and searching webservice I rely on for the [article search functionality]({{< relref "search.md" >}}). As such they only process information that you enter in search queries, I also have access to the input which are hosted by Algolia in [France for a duration of 90 days](https://www.algolia.com/doc/faq/security-privacy/gdpr/). Logs of search queries and operations can be processed outside of the EU but always stay in a system respecting privacy and security according to [algolia gdpr documentation](https://www.algolia.com/doc/faq/security-privacy/gdpr/). 
-
-The legal basis for processing your personal data is Article 6(1) a GDPR.
-
-### __Report-URI Ltd, UK__
-
-Report-URI ([read their privacy policy](https://report-uri.com/home/privacy_policy)) allows me to redirect failed or suspicious webrequests for analysis. The data collected on Report-URI is anonymized and doesn't contain your IP address or user-agent.
+Algolia Inc ([read their privacy policy](https://www.algolia.com/policies/privacy/)) is the indexing and searching webservice I rely on for the [article search functionality]({{< relref "search.md" >}}). As such they only process information that you enter in search queries, I also have access to the input which are hosted by Algolia in [France for a duration of 90 days](https://www.algolia.com/doc/faq/security-privacy/gdpr/). Logs of search queries and operations can be processed outside of the EU but always stay in a system respecting privacy and security according to [algolia GDPR documentation](https://www.algolia.com/doc/faq/security-privacy/gdpr/). 
 
 The legal basis for processing your personal data is Article 6(1) a GDPR.
 
@@ -110,12 +117,6 @@ The legal basis for processing your personal data is Article 6(1) a GDPR.
 ### __Bitcoin.com (Saint Bitts LLC), USA__
 
 I only request the following API: `index-api.bitcoin.com` to get the latest BCH/EUR trading rate so you can always give me exactly 1 euro donation with your [badgerwallet](https://badgerwallet.cash/). No personal data is involved. If you wish to make me a donation through the badgerwallet or any other cryptocurrency listed on my About page, your sending cryptocurrency address and the amount of the donation will be recorded on the corresponding blockchain and cannot be erased by me or any other third party.
-
-The legal basis for processing your personal data is Article 6(1) a GDPR.
-
-### __AdEx Network OÜ, Estonia__
-
-Adex ([read their privacy policy](https://www.adex.network/tos/)) is an attempt to monetize my website traffic while serving some ads in a less privacy intrusive way. Adex relies on [Contextual Targeting](https://www.adex.network/blog/why-we-use-contextual-targeting/), and isn't supposed to collect any personal data. It loads ads from the domain `moonicorn.com`.
 
 The legal basis for processing your personal data is Article 6(1) a GDPR.
 
@@ -138,7 +139,7 @@ You may exercise your rights by contacting me.
 
 ## __Right to object (Article 21 GDPR)__ {#right-to-object}
 
-**You have the right to object, on grounds relating to your particular situation, at any time to processing of personal data concerning you which is based on point e or f of Article 6(1) GDPR, including profiling based on those provisions. We no longer process the personal data unless we demonstrate compelling legitimate grounds for the processing which override the interests, rights and freedoms of you or for the establishment, exercise or defence of legal claims. This doesn’t affect the lawfulness of processing based on consent before its withdrawal (point c of Article 13(2) GDPR).**
+**You have the right to object, on grounds relating to your particular situation, at any time to processing of personal data concerning you which is based on point e or f of Article 6(1) GDPR, including profiling based on those provisions. I no longer process the personal data unless I demonstrate compelling legitimate grounds for the processing which override the interests, rights and freedoms of you or for the establishment, exercise or defence of legal claims. This doesn’t affect the lawfulness of processing based on consent before its withdrawal (point c of Article 13(2) GDPR).**
 
 ## __Right to lodge a complaint with a supervisory authority (Article 77 GDPR)__ {#right-to-lodge}
 
