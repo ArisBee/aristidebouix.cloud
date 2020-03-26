@@ -26,7 +26,7 @@ The following privacy policy is valid for:
 
 * [Definitions](#definitions)
 * [Personal data I process](#personal-data-i-process)
-* [Personal data third parties process for me](#personal-data-third-parties-process-for-me)
+* [Personal data third parties process for me](#personal-data-third-parties)
 * [Accessing my website using mirrors and archives](#accesssing-my-website)
 * [Your rights (Articles 15–20 GDPR)](#your-rights)
 * [Right to object (Article 21 GDPR)](#right-to-object)
@@ -53,7 +53,7 @@ The legal basis for processing your personal data as explained above is Article 
 
 Cloudfront writes information about certain client-side request to so-called log files. I use these log files to detect attack-like behavior and to improve the site services. Those log files are automatically encrypted using S3 server-side-encryption (SSE) and deleted after 30 days.
 
-## __Personal data third parties process for me__
+## __Personal data third parties process for me__ {#personal-data-third-parties}
 
 The following third parties process personal data for me:
 

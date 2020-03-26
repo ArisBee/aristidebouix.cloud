@@ -26,7 +26,7 @@ Het volgende privacybeleid is geldig voor:
 
 * [Definities](#definitions)
 * [Persoonlijke gegevens die ik verwerk](#personal-data-i-process)
-* [Persoonlijke gegevens die derden voor mij verwerken](#personal-data-third-parties-process-for-me)
+* [Persoonlijke gegevens die derden voor mij verwerken](#personal-data-third-parties)
 * [Toegang tot mijn website met behulp van mirrors en archieven](#accesssing-my-website)
 * [Uw rechten (Artikelen 15–20 GDPR)](#your-rights)
 * [Recht van bezwaar (Artikel 21 GDPR)](#right-to-object)
@@ -53,7 +53,7 @@ De rechtsgrondslag voor de verwerking van uw persoonsgegevens, zoals hierboven u
 
 Cloudfront schrijft informatie over bepaalde client-side verzoeken naar zogenaamde logbestanden. Ik gebruik deze logbestanden om aanvalsachtig gedrag te detecteren en om de diensten van de site te verbeteren. Deze logbestanden worden automatisch gecodeerd met behulp van S3 server-side-encryptie (SSE) en na 30 dagen verwijderd.
 
-## __[Persoonlijke gegevens die derden voor mij verwerken__ {#personal-data-thir-parties-process-for-me}
+## __Persoonlijke gegevens die derden voor mij verwerken__ {#personal-data-third-parties}
 
 De volgende derden verwerken persoonlijke gegevens voor mij:
 
