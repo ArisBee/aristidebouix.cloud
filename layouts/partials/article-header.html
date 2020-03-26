@@ -1,10 +1,4 @@
-{{ if .IsPage }}
 <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-<a href="{{ .Permalink | safeJS }}#disqus_thread" data-disqus-identifier="{{ .UniqueID | safeJS }}"></a>
-{{ else }}
-<h1><a href="{{ .Permalink }}" title="{{ .Title }}" >{{ .Title }}</a></h1>
-<a href="{{ .Permalink | safeJS }}#disqus_thread" data-disqus-identifier="{{ .UniqueID | safeJS }}"></a>
-{{ end }}
 {{ if not .Params.disableComments }}
 <footer class="post-info">{{ i18n "posted_on" }} <span class="post-meta"><time datetime="{{ .Date.Format "2006.01.02" }}">{{ .Date.Format "2006.01.02" }}</time>&middot; {{ .ReadingTime }} {{ i18n "reading_time" }}
 {{ if isset .Params "tags" }}
