@@ -4,7 +4,7 @@ description: ""
 date: "2019-01-02"
 categories: ["Blogging"]
 tags: ["roadmap", "update", "web"]
-type: "post"
+type: "posts"
 draft: false
 audio: "new-year-nl.mp3"
 abo:

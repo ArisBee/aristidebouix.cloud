@@ -5,7 +5,7 @@ description: "Leveraging AWS services to add web security headers on the flight"
 categories: ["Cloud"]
 tags: ["aws", "cdn", "https"]
 draft: false
-type: "post"
+type: "posts"
 audio: "lambda-edge.mp3"
 abo:
   image:

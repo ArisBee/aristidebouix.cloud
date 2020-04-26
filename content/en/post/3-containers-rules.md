@@ -4,7 +4,7 @@ date: "2018-06-14"
 description: "This article is the first one of a series on how to mount a secure enterprise containers provisionning pipeline and monitor its efficience"
 categories: ["Containers"]
 tags: ["containers", "security", "unix"]
-type: "post"
+type: "posts"
 audio: "3-containers-rules.mp3"
 abo:
   image:

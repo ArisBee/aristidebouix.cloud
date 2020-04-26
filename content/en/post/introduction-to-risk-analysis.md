@@ -4,7 +4,7 @@ date: "2018-07-10"
 description: "This article aims to demonstrate the importance of a great security risk analysis before starting any cybersecurity project"
 categories: ["Organizational"]
 tags: ["risk", "organization", "security"]
-type: "post"
+type: "posts"
 audio: "risk-analysis.mp3"
 abo:
   image:

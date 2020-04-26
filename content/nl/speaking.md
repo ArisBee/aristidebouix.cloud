@@ -11,6 +11,7 @@ Om te komen...
 
 ## Externe Publicaties
 
+* [The Risks of open-source software for corporate use](https://www.compact.nl/articles/the-risks-of-open-source-software-for-corporate-use/) (April 2020)
 * [Euronext: Leveraging the Cloud for Big Data Analytics](https://www.devoteam.com/newsroom/leveraging-cloud-big-data-analytics-rex-form-euronext/) ( September 2018 )
 * [Part 1 : Privacy dans le Cloud Public ? Tirer les leçons du BuckHacker gate](https://france.devoteam.com/newsroom/part-1-privacy-dans-le-cloud-public-tirer-les-lecons-du-buckhacker-gate-2/) ( Maart 2018 )
 * [Part 2 : Privacy dans le Cloud Public ? Tirer les leçons du BuckHacker gate](https://france.devoteam.com/newsroom/part-2-privacy-dans-le-cloud-public-tirer-les-lecons-du-buckhacker-gate/) ( Maart 2018 )

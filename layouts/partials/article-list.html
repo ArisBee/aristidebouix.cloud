@@ -39,7 +39,7 @@
 		  document.querySelector('.searchbox [type="reset"]').addEventListener('click', function() {  this.parentNode.querySelector('input').focus();});
 		</script>
 
-        {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+        {{ $paginator := .Paginate (where .Site.Pages "Type" "posts") }}
         {{ range $paginator.Pages }}
             {{ .Render "summary" }}
         {{ end }}

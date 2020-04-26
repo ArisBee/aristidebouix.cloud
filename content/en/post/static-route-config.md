@@ -4,7 +4,7 @@ date: "2018-02-19"
 description: "Or how to rectify your provider misconfigurations"
 categories: ["SysAdmin"]
 tags: ["centos", "server", "routing"]
-type: "post"
+type: "posts"
 audio: "static-routes.mp3"
 abo:
   image:

@@ -1,10 +1,10 @@
 ---
 title: "AWS Cloud metadata service abuse"
 description: "Characterization and abuse of Cloud IaaS Metdataservices"
-date: "2020-03-30"
+date: "2020-03-31"
 categories: ["Cloud"]
 tags: ["aws", "ec2", "metadata"]
-type: "post"
+type: "posts"
 audio: "metadata.mp3"
 draft: false
 abo:

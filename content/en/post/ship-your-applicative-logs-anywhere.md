@@ -4,7 +4,7 @@ date: "2018-04-10"
 description: "All is in the title"
 categories: ["SysAdmin"]
 tags: ["unix", "monitoring", "syslog"]
-type: "post"
+type: "posts"
 audio: "applicative-logs.mp3"
 abo:
   image:

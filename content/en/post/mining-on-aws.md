@@ -4,7 +4,7 @@ description: "Set-up a small gpu instance fleet in 10 minutes"
 date: "2018-08-20"
 categories: ["Cloud"]
 tags: ["aws", "mining", "ec2"]
-type: "post"
+type: "posts"
 audio: "mining-on-aws.mp3"
 draft: false
 abo:

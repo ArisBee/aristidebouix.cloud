@@ -4,7 +4,7 @@ description: "Open sourcing of an automated Cloudformation deployment to enable 
 date: "2019-02-27"
 categories: ["Cloud"]
 tags: ["aws", "snow", "serverless"]
-type: "post"
+type: "posts"
 audio: "snow.mp3"
 draft: false
 abo:
@@ -55,7 +55,7 @@ As usually in Cloud Computing the biggest threat to this integration are the end
 Here an advanced case going beyond the native modules I wrote above about.  
 The diagram below shows an example of AWS IAM permissions provisioning directly from ServiceNow with a manual approbation step. Obviously, my Github repository only covers the stages I, II, III, X, and XIII on the left, I count on your creativity to automatize the rest efficiently or bring your own use cases  :smile: .
 
-![Example of ServiceNow and AWS integration](/post/snow/SNOW Integration.png)
+![Example of ServiceNow and AWS integration](/post/snow/SNOWIntegration.png)
 
 Below a detailed explanation of each step:
 

@@ -4,7 +4,7 @@ date: "2018-01-16"
 description: "A very nice Windows automation feature, not that well documented"
 categories: ["SysAdmin"]
 tags: ["windows", "server", "automation"]
-type: "post"
+type: "posts"
 audio: "quotas.mp3"
 abo:
   image:

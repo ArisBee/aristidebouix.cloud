@@ -4,7 +4,7 @@ description: "Cloud environments are often qualified as Insecure compare to trad
 date: "2018-09-24"
 categories: ["Cloud"]
 tags: ["aws", "iam", "pentest"]
-type: "post"
+type: "posts"
 audio: "attack-on-aws.mp3"
 draft: false
 abo:
