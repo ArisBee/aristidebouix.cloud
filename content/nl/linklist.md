@@ -18,7 +18,7 @@ Hier een lijst met links naar verschillende webbronnen over verschillende onderw
 * [Jenkins-Pillage](https://github.com/DolosGroup/Jenkins-Pillage): Een hulpmiddel om het verzamelen van gegevens te automatiseren in een kwetsbare Jenkins instantie
 * [Google Image](https://www.google.com/imghp?hl=en&tab=wi&authuser=0): Wist je dat je Google kunt gebruiken om online naar een afbeelding te zoeken, heel handig.
 * [Online Metadata viewer](http://exif.regex.info/exif.cgi): Als je lui bent om het offline te krijgen.
-* [Tools tldr](https://tools.tldr.run/): Een script dat ik niet opnoem? Vind het daar.
+* [Tools tldr](https://tools.tldr.run/): Een script dat je niet opnoem? Vind het daar.
 
 ## Privacy/Anonimiteit/Gedecentraliseerde diensten
 
