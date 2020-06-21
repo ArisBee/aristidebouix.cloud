@@ -36,12 +36,14 @@ Hier een lijst met links naar verschillende webbronnen over verschillende onderw
 
 ## Tor .onion websites
 
+* [Ahmia](http://msydqstlz2kzerdg.onion/): Eerst een gespecialiseerde browser voor het darkweb
 * [The Pirate Bay](http://uj3wazyk5u4hnvtk.onion)
 * [Protonmail](https://protonirockerxow.onion)
 * [Bitblender](http://bitblendervrfkzr.onion/?r=187448): Een Bitcoin mengservice
 * [Bicoin Fog](http://foggeddriztrcar2.onion): Een andere Bitcoin mengservice
 * [PenguinMixer](http://penguinsmbshtgmf.onion/index.html): Een **Open Source** :penguin: Bitcoin mengservice
 * [Real World Onion Sites](https://github.com/alecmuffett/real-world-onion-sites): Voor de .onion versie van algemene websites, kijk op deze GitHub pagina
+* * [dark.fail](http://www.darkfailllnkf4vf.onion/): Voor al het andere
 
 ## Systeem
 

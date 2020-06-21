@@ -32,16 +32,18 @@ Here a list of links to different web resources on various subjects.
 * [Vueville](https://www.vueville.com/): Nice resources on how to set up a camera surveillance system
 * [Tor-relay.co](https://tor-relay.co/): An online tool to help you configure a Tor relay on any platform, quite handy for first-timer.
 * [Kycnot.me](https://kycnot.me/): Many cryptocurrencies services accessible without ANY identity control. I would never expected we would need such a website 5 years ago where anonymity was the agreed norm.
-* [Pandemic Big Brother](https://pandemicbigbrother.online/en/): Make me wish to emigrate to Sweden
+* [Pandemic Big Brother](https://pandemicbigbrother.online/en/): Makes me wish to emigrate to Sweden
 
 ## Tor .onion websites
 
+* [Ahmia](http://msydqstlz2kzerdg.onion/): First a darkweb specialized browser
 * [The Pirate Bay](http://uj3wazyk5u4hnvtk.onion)
 * [Protonmail](https://protonirockerxow.onion)
 * [Bitblender](http://bitblendervrfkzr.onion/?r=187448): A Bitcoin mixing service
 * [Bicoin Fog](http://foggeddriztrcar2.onion): Another Bitcoin mixing service
 * [PenguinMixer](http://penguinsmbshtgmf.onion/index.html): An **Open Source** :penguin: Bitcoin mixing service
 * [Real World Onion Sites](https://github.com/alecmuffett/real-world-onion-sites): For the .onion version of common websites, check this GitHub page
+* [dark.fail](http://www.darkfailllnkf4vf.onion/): For everything else
 
 ## System
 
