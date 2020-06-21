@@ -16,6 +16,9 @@ Hier een lijst met links naar verschillende webbronnen over verschillende onderw
 * [Pakala](https://github.com/palkeo/pakala): Tool om kwetsbaarheden in Ethereum slimme contracten op te sporen
 * [2FA](https://twofactorauth.org/): Lijst ondersteund 2FA voor de belangrijkste internet websites
 * [Jenkins-Pillage](https://github.com/DolosGroup/Jenkins-Pillage): Een hulpmiddel om het verzamelen van gegevens te automatiseren in een kwetsbare Jenkins instantie
+* [Google Image](https://www.google.com/imghp?hl=en&tab=wi&authuser=0): Wist je dat je Google kunt gebruiken om online naar een afbeelding te zoeken, heel handig.
+* [Online Metadata viewer](http://exif.regex.info/exif.cgi): Als je lui bent om het offline te krijgen.
+* [Tools tldr](https://tools.tldr.run/): Een script dat ik niet opnoem? Vind het daar.
 
 ## Privacy/Anonimiteit/Gedecentraliseerde diensten
 
@@ -28,6 +31,8 @@ Hier een lijst met links naar verschillende webbronnen over verschillende onderw
 * [Blocklists](https://wally3k.github.io/): de Beste verzameling blokklisten voor een DNS-filterservice (Pi-hole, uw router, ublock ...)
 * [Vueville](https://www.vueville.com/): Leuke middelen voor het opzetten van een camerabewakingssysteem
 * [Tor-relay.co](https://tor-relay.co/): Een online tool om te helpen met het configureren van een Tor-relay op elk platform, heel handig voor first-timer.
+* [Kycnot.me](https://kycnot.me/): Veel cryptocurrency diensten die toegankelijk zijn zonder enige vorm van identiteitscontrole. Ik had nooit verwacht dat we zo'n website 5 jaar geleden nodig zouden hebben omdat anonimiteit de afgesproken norm was.
+* [Pandemic Big Brother](https://pandemicbigbrother.online/en/): Maakt me wensen om te emigreren naar Zweden
 
 ## Tor .onion websites
 
@@ -67,14 +72,17 @@ Hier een lijst met links naar verschillende webbronnen over verschillende onderw
 * [AWS Breaking Changes](https://github.com/SummitRoute/aws_breaking_changes): Iemand die vriendelijk genoeg is om alle brekende AWS dienstveranderingen op te sporen die zorgvuldig verborgen in obscure forums door het personeel van AWS. :japanese_ogre:
 * [Cloudformation Roadmap](https://github.com/aws-cloudformation/aws-cloudformation-coverage-roadmap/projects/1): Officiële AWS onderhouden lijst van aankomende Cloudformation functies, zeker een cruciale hulpbron.
 * [AWS History](https://www.awsgeek.com/AWS-History/): Een lijst om u te helpen bij het volgen van aangekondigde AWS-diensten en hun release.
-
+* [Lambda Coldstart](https://coldstart.nordclouddemo.com/): Een handige hulpbron van Nordcloud om lambda coldstart te checken aan de hand van: runtime, regio, maat, geheugen En ze draaien het twee keer per dag!! 
+* [Spotcost](https://spotcost.net/): Regelmatig geupdate tabel statistieken van alle spot instances die beschikbaar zijn op AWS, ik laat jullie erin duiken.
 ## Andere Clouds (GCP, Azure)
 
 * [Lowendbox](https://lowendbox.com): Tijdelijke aankondigingen voor goedkope VPS
 * [GCP calculator](https://cloud.google.com/products/calculator): Een rekencalculator voor bronnen op Google Cloud Platform
+* [KilledbyGoogle](https://killedbygoogle.com/): Omdat alle producten van Google een EOL hebben, wacht ik hier op GCP, Gmail en Playstore vinden.
 * [Serverless Benchmark](https://serverless-benchmark.com/): Een performance benchmark van de serverless functies  van verschillende Cloud Providers
 * [Cloud Comparison Tool](https://www.cloudcomparisontool.com/): Een hulpmiddel om de functies en oplossingen van verschillende Cloud Providers te vergelijken
 * [Azure checklist](https://azurechecklist.com/): Checklist voor Azure migratie bereidheid
+* [MS Licensing](https://github.com/AaronDinnage/Licensing): Enkel een duidelijke visualisatie van de licenties voor MicroSoft Cloud producten kon ik vinden. Geen idee waarom het niet op hun officiële website staat.
 
 ## (Web) Ontwikkeling/ DevOps
 
@@ -86,11 +94,15 @@ Hier een lijst met links naar verschillende webbronnen over verschillende onderw
 * [CNCF landscape](https://landscape.cncf.io/): Een landschap van alle Cloud Native hotest tools die per categorie zijn besteld, handig als je nog twijfelt over welke tools je aan het begin van een nieuw project moet gebruiken. 
 * [Git cheatsheet](http://ndpsoftware.com/git-cheatsheet.html): Ik weet zeker dat zelfs de besten van ons het soms nodig hebben.
 * [eng-practices](https://google.github.io/eng-practices/review/reviewer/): Google's best practices voor code review
+* [Markmap](https://markmap.js.org/):  Een js bibliotheek om mindmaps te maken uit Markdown. Als ik er wat aan toevoeg op deze blog, weet je waar het vandaan komt.
+* [Regexr](https://regexr.com/): Want niemand houdt ervan om Regex te schrijven.
 
-## ICT Architectuur
+## Bedrijf Beveiliging
 
 * [Zero Trust Architecture](https://github.com/ukncsc/zero-trust-architecture/): Begeleiding voor de implementatie van een Zero-Trust IT-architectuur (van het Britse National Cyber Security Center NCSC) 
-* [OWASP DevSecOps Matrix](https://dsomm.timo-pagel.de/index.php): OWASP DevSecOps maturiteitsmodel Matrix (webversie) 
+* [OWASP DevSecOps Matrix](https://dsomm.timo-pagel.de/index.php): OWASP DevSecOps maturiteitsmodel Matrix (webversie)
+* [CVSSJS](https://cvssjs.github.io/): Er zijn dagen dat dit tool meer dan 90% van mijn werk buiten de rapportage om vertegenwoordigt. 
+* [RE&CT](https://github.com/atc-project/atc-react): Gelijkwaardig aan de ATT&CK-matrix voor de defensieve (blauwe team) zijde.
 
 ## Mining
 
@@ -104,6 +116,7 @@ Hier een lijst met links naar verschillende webbronnen over verschillende onderw
 ## Bitcoin
 
 * [Bitcoin-only](https://bitcoin-only.com/): Beste all-in informatiebron
+* [Bitcoinqna](https://www.bitcoinqna.com/): Hetzelfde als hierboven, maar dan korter
 * [Bitcoinfees](https://bitcoinfees.21.co): Aanbevolen Bitcoin transactiekosten
 * [Txaccelerator](https://pool.viabtc.com/tools/txaccelerator): Een hulpmiddel om een ​​Bitcoin transactie validatie te versnellen
 * [1ml](https://1ml.com/): Hulpmiddel om het lightning netwerk van Bitcoin te analyseren
@@ -118,11 +131,13 @@ Hier een lijst met links naar verschillende webbronnen over verschillende onderw
 * [Ethgasstation](https://ethgasstation.info): Hulpmiddel om de gasprijs te optimaliseren voor een Ethereum transactie
 * [Dapp.com](https://www.dapp.com/): Lijst van de meest populaire Decentrale Applicaties (Dapps) op elke blockchain, een referentie als je van Dapps houdt
 * [Opensea](https://opensea.io/assets): Als je als me van ERC20 tokens houdt, wed ik dat je nog meer ERC721-verzamelobjecten leuk vindt. En weet je wat? Er is een marktplaats voor ze
+* [Tornado.cash](https://tornado.cash/): Een beetje privacy in de etherische wereld
 
 ## Diversen
 
-* [Cookingbudget](http://www.cookingbudgets.com/): Een leuke website die wordt gefinancierd door de Europese Unie en waar u mag leren hoe corrupt te zijn wanneer u werkt in het openbaar bestuur. Het doelwit is meestal bewustzijn van die praktijken, zodat journalisten en burgers kunnen ze identificeren en onthullen, natuurlijk niet om ze te reproduceren.
 * [Nasa-software](https://software.nasa.gov/): Een lijst met softwares die door de NASA openbaar waren gemaakt
 * [Xsv](https://github.com/BurntSushi/xsv): Een hulpmiddel om gemakkelijk CSV bestanden te manipuleren
 * [Amazondating](https://amazondating.co/): Wat als Amazon de nieuwe dating App generatie zou vrijgeven :grin: 
 * [MSPaintIDE](https://github.com/RubbaBoy/MSPaintIDE): Een hulpmiddel om van MSPaint uw favoriete IDE te maken :smile:
+* [The Bastard Operator from Hell](http://bofh.bjash.com/): Hoe ben ik hier in godsnaam op gevallen!!?
+* [Rotten Library](https://www.gwern.net/docs/rotten.com/library/index.html): Niet beter wordende XD

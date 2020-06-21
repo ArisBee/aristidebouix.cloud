@@ -50,6 +50,9 @@ defaultContentLanguageInSubdir = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[blackfriday]
+  hrefTargetBlank = true
 	
 [params]
   site_author = "Aristide Bouix"

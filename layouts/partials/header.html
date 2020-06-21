@@ -9,7 +9,7 @@
         <meta name="description" content="{{ .Site.Params.site_description }}">
 		<meta name="keywords" content="Aristide,Bouix,AWS,Amazon,Cloud,automation,Docker,cybersecurity,sysadmin,DevOps,security,SecDevOps,lifehack,privacy,Unix,Linux,geek,nerd">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        {{ hugo.Generator }}
+        {{ .Hugo.Generator }}
         <link href="{{ "post/index.xml" | absURL }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
         <link href="{{ "post/index.xml" | absURL }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
         <link rel="stylesheet" href="{{ "css/styles.css" | absURL }}">

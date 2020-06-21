@@ -16,6 +16,9 @@ Here a list of links to different web resources on various subjects.
 * [Pakala](https://github.com/palkeo/pakala): Tool to spot vulnerabilities inside of Ethereum smart contracts
 * [2FA](https://twofactorauth.org/): List supported 2FA for main Internet websites
 * [Jenkins-Pillage](https://github.com/DolosGroup/Jenkins-Pillage): A tool to automatize data collection in a vulnerable Jenkins instance
+* [Google Image](https://www.google.com/imghp?hl=en&tab=wi&authuser=0): Did you know you can use Google to search for an image online, quite convenient.
+* [Online Metadata viewer](http://exif.regex.info/exif.cgi): If you're lazy to have it offline.
+* [Tools tldr](https://tools.tldr.run/): Een script dat ik niet opnoem? Vind het daar.
 
 ## Privacy/Anonymity/Decentralized services
 
@@ -28,6 +31,8 @@ Here a list of links to different web resources on various subjects.
 * [Blocklists](https://wally3k.github.io/): the Best collection of blocklists for a DNS filtering service (Pi-hole, your router, ublock...)
 * [Vueville](https://www.vueville.com/): Nice resources on how to set up a camera surveillance system
 * [Tor-relay.co](https://tor-relay.co/): An online tool to help you configure a Tor relay on any platform, quite handy for first-timer.
+* [Kycnot.me](https://kycnot.me/): Many cryptocurrencies services accessible without ANY identity control. I would never expected we would need such a website 5 years ago where anonymity was the agreed norm.
+* [Pandemic Big Brother](https://pandemicbigbrother.online/en/): Make me wish to emigrate to Sweden
 
 ## Tor .onion websites
 
@@ -67,6 +72,8 @@ Here a list of links to different web resources on various subjects.
 * [AWS Breaking Changes](https://github.com/SummitRoute/aws_breaking_changes): Someone kind enough to track all the breaking AWS service changes that have been carefully hidden in obscure forums by the AWS staff :japanese_ogre:
 * [Cloudformation Roadmap](https://github.com/aws-cloudformation/aws-cloudformation-coverage-roadmap/projects/1): Official AWS maintained list of upcoming Cloudformation features,definitely a crucial resource.
 * [AWS History](https://www.awsgeek.com/AWS-History/): A list to help you tracking announced AWS services and their release.
+* [Lambda Coldstart](https://coldstart.nordclouddemo.com/): A handy resource provided by Nordcloud to check lambda coldstart according: runtime, region, size, memory. And they run it twice a day!! 
+* [Spotcost](https://spotcost.net/): Regularly updated table stats of all the spot instances avalaible on AWS, I let you dive in.
 
 ## Other Clouds (GCP, Azure ...)
 
@@ -74,7 +81,9 @@ Here a list of links to different web resources on various subjects.
 * [Serverless Benchmark](https://serverless-benchmark.com/): A performance benchmark of the serverless functions of several Cloud Providers
 * [Cloud Comparison Tool](https://www.cloudcomparisontool.com/): A tool to help to compare the features and solutions of different Cloud Providers
 * [GCP calculator](https://cloud.google.com/products/calculator): A billing calculator for resources on Google Cloud Platform
+* [KilledbyGoogle](https://killedbygoogle.com/): Because all Google's product have an EOL, I'm waiting to find GCP, Gmail and Playstore here.
 * [Azure checklist](https://azurechecklist.com/): Azure migration readiness checklist
+* [MS Licensing](https://github.com/AaronDinnage/Licensing): Only clear visualization of the licenses for MicroSoft Cloud products I could find. No idea why it's not on their official website.
 
 ## (Web) Development/ DevOps
 
@@ -86,11 +95,15 @@ Here a list of links to different web resources on various subjects.
 * [CNCF landscape](https://landscape.cncf.io/): A landscape of all the Cloud Native hotest tools ordered per category, handy if you're still hesitant on which tools to adopt at the begining of a new project. 
 * [Git cheatsheet](http://ndpsoftware.com/git-cheatsheet.html):  I'm sure even the best among us needs such a help sometimes
 * [eng-practices](https://google.github.io/eng-practices/review/reviewer/): Google's best practices for code review
+* [Markmap](https://markmap.js.org/): A js library to generate mindmaps from Markdown. If I add some on this blog, you'll know where it comes from.
+* [Regexr](https://regexr.com/): Because anyway no one likes to write Regex
 
-## IT Architecture
+## Enterprise Security
 
 * [Zero Trust Architecture](https://github.com/ukncsc/zero-trust-architecture/): Guidance to implement a Zero-Trust IT architecture (From the British National Cyber Security Center NCSC)
-* [OWASP DevSecOps Matrix](https://dsomm.timo-pagel.de/index.php): OWASP DevSecOps maturity model Matrix (web version) 
+* [OWASP DevSecOps Matrix](https://dsomm.timo-pagel.de/index.php): OWASP DevSecOps maturity model Matrix (web version)
+* [CVSSJS](https://cvssjs.github.io/): There are days this tool represents more than 90% of my work outside of reporting.
+* [RE&CT](https://github.com/atc-project/atc-react): Equivalent of the ATT&CK matrix for the defensive (blue team) side.
 
 ## Mining
 
@@ -104,6 +117,7 @@ Here a list of links to different web resources on various subjects.
 ## Bitcoin
 
 * [Bitcoin-only](https://bitcoin-only.com/): Best all-in source of information
+* [Bitcoinqna](https://www.bitcoinqna.com/): Same as above, but shorter
 * [Bitcoinfees](https://bitcoinfees.21.co): Recommended Bitcoin transaction fees
 * [Txaccelerator](https://pool.viabtc.com/tools/txaccelerator): A tool to accelerate a Bitcoin transaction validation
 * [1ml](https://1ml.com/): Tool to analyze Bitcoin lightning network
@@ -118,11 +132,13 @@ Here a list of links to different web resources on various subjects.
 * [Ethgasstation](https://ethgasstation.info): Tool to optimize gas price while doing an Ethereum transaction
 * [Dapp.com](https://www.dapp.com/): List of the most popular Decentralized Applications (Dapps) on each blockchain, a reference if you like Dapps
 * [Opensea](https://opensea.io/assets): If as me you love ERC20 tokens, I bet you love even more ERC721 collectibles. And you know what? There is a market place for them
+* [Tornado.cash](https://tornado.cash/): A bit of privacy in the Ethereum world
 
 ## Miscellaneous
 
-* [Cookingbudget](http://www.cookingbudgets.com/): A fun website funded by the European Union which will teach you on how being corrupted when working in public administration. The target is mostly awareness about those practices so that journalists and citizens can identify and reveal them, of course not to reproduce.
 * [Nasa-software](https://software.nasa.gov/): A list of softwares made public by the NASA
 * [Xsv](https://github.com/BurntSushi/xsv): A tool to easily manipulate CSV files
-* [Amazondating](https://amazondating.co/): What if Amazon was releasing the new dating Appm generation :grin: 
+* [Amazondating](https://amazondating.co/): What if Amazon was releasing the new dating App generation :grin: 
 * [MSPaintIDE](https://github.com/RubbaBoy/MSPaintIDE): Tool to make of MSPaint your favorite IDE :smile:
+* [The Bastard Operator from Hell](http://bofh.bjash.com/): How the hell I've fallen on this!!?
+* [Rotten Library](https://www.gwern.net/docs/rotten.com/library/index.html): Not getting better XD
