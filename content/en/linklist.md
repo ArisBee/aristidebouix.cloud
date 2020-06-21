@@ -36,7 +36,7 @@ Here a list of links to different web resources on various subjects.
 
 ## Tor .onion websites
 
-* [Ahmia](http://msydqstlz2kzerdg.onion/): First a darkweb specialized browser
+* [Ahmia](http://msydqstlz2kzerdg.onion/): First, a darkweb specialized search engine
 * [The Pirate Bay](http://uj3wazyk5u4hnvtk.onion)
 * [Protonmail](https://protonirockerxow.onion)
 * [Bitblender](http://bitblendervrfkzr.onion/?r=187448): A Bitcoin mixing service

@@ -36,7 +36,7 @@ Hier een lijst met links naar verschillende webbronnen over verschillende onderw
 
 ## Tor .onion websites
 
-* [Ahmia](http://msydqstlz2kzerdg.onion/): Eerst een gespecialiseerde browser voor het darkweb
+* [Ahmia](http://msydqstlz2kzerdg.onion/): Eerst, een gespecialiseerde search engine voor het darkweb
 * [The Pirate Bay](http://uj3wazyk5u4hnvtk.onion)
 * [Protonmail](https://protonirockerxow.onion)
 * [Bitblender](http://bitblendervrfkzr.onion/?r=187448): Een Bitcoin mengservice
