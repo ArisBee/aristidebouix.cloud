@@ -43,7 +43,7 @@ Hier een lijst met links naar verschillende webbronnen over verschillende onderw
 * [Bicoin Fog](http://foggeddriztrcar2.onion): Een andere Bitcoin mengservice
 * [PenguinMixer](http://penguinsmbshtgmf.onion/index.html): Een **Open Source** :penguin: Bitcoin mengservice
 * [Real World Onion Sites](https://github.com/alecmuffett/real-world-onion-sites): Voor de .onion versie van algemene websites, kijk op deze GitHub pagina
-* * [dark.fail](http://www.darkfailllnkf4vf.onion/): Voor al het andere
+* [dark.fail](http://www.darkfailllnkf4vf.onion/): Voor al het andere
 
 ## Systeem
 

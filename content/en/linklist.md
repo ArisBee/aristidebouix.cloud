@@ -18,7 +18,7 @@ Here a list of links to different web resources on various subjects.
 * [Jenkins-Pillage](https://github.com/DolosGroup/Jenkins-Pillage): A tool to automatize data collection in a vulnerable Jenkins instance
 * [Google Image](https://www.google.com/imghp?hl=en&tab=wi&authuser=0): Did you know you can use Google to search for an image online, quite convenient.
 * [Online Metadata viewer](http://exif.regex.info/exif.cgi): If you're lazy to have it offline.
-* [Tools tldr](https://tools.tldr.run/): Een script dat ik niet opnoem? Vind het daar.
+* [Tools tldr](https://tools.tldr.run/): A script or tool not in this list? Then you can probably find it there
 
 ## Privacy/Anonymity/Decentralized services
 
