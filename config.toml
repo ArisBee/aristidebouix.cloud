@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = ""
 languageCode = "en-us"
 title = "Aris' Tech journey /blog"
 # Define how many pages appear per site
@@ -143,3 +143,7 @@ defaultContentLanguageInSubdir = true
 [outputs]
 	home = [ "HTML", "RSS", "JSON", "Algolia"]
 	
+[outputFormats]
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseurl = "https://aristidebouix.cloud/"
