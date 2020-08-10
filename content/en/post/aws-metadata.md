@@ -14,7 +14,7 @@ abo:
     height: 600
 ---
 
-A few weeks ago, I presented an internal meetup to the pentesters of my company on how they could take advantage of weak or poorly configured IaaS metadata services. The end of the presentation was backed by an interactive CTF-like workshop that I have setup based on the work from [Avishay Bar](https://github.com/avishayil/caponeme) from CyberArk. While some suggestions from the workshop have been merged into the master, the complete lab is available on the forked version of the original repository available on my [Github account](https://github.com/Kharkovlanok/caponeme).
+A few weeks ago, I presented an internal meetup to the pentesters of my company on how they could take advantage of weak or poorly configured IaaS metadata services. The end of the presentation was backed by an interactive CTF-like workshop that I have setup based on the work from [Avishay Bar](https://github.com/avishayil/caponeme) from CyberArk. While some suggestions from the workshop have been merged into the master, the complete lab is available on the forked version of the original repository available on my [Github account](https://github.com/ArisBee/caponeme).
 
 As the meetup went successfully, I've decided to make it available to a larger number through this blogpost.
 
@@ -51,7 +51,7 @@ It's now time for a simple exploitation scenario: "You are Alice, have some writ
 
 ## A Quick summary of the lab
 
-Again the lab is available on [GitHub](https://github.com/Kharkovlanok/caponeme), it will deploy the following resources:
+Again the lab is available on [GitHub](https://github.com/ArisBee/caponeme), it will deploy the following resources:
 
 ![SSRF hacking lab](/post/metadata/hacklab.png)
 

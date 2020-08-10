@@ -9,7 +9,7 @@
         <meta name="description" content="{{ .Site.Params.site_description }}">
 		<meta name="keywords" content="Aristide,Bouix,AWS,Amazon,Cloud,automation,Docker,cybersecurity,sysadmin,DevOps,security,SecDevOps,lifehack,privacy,Unix,Linux,geek,nerd">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="onion-location" content="http://jpd7fg4gfiscj6fm.onion" />
+        <meta http-equiv="onion-location" content="http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion" />
         {{ .Hugo.Generator }}
         <link href="{{ "post/index.xml" | absURL }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
         <link href="{{ "post/index.xml" | absURL }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
@@ -22,14 +22,14 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="theme-color" content="#ffffff">
         <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}" />
-		<script src="{{ "js/vendor/highlight.min.js" | absURL }}" ></script>
+		<script rel="preload" src="{{ "js/vendor/highlight.min.js" | absURL }}" ></script>
 		<script>hljs.initHighlightingOnLoad();</script>
 		<script>window.jQuery || document.write('<script src="{{ "js/vendor/jquery-1.11.0.min.js" | absURL }}"><\/script>')</script>
 		{{ partial "site-opengraph.html" . }}
 		{{ partial "site-twitter.html" . }}
-		<script src="{{ "js/bootstrap.min.js" | absURL }}" async></script>
+		<script rel="preload" src="{{ "js/bootstrap.min.js" | absURL }}" async></script>
 		{{ partial "mathjax_support.html" . }}
-        <script src="{{ "js/vendor/modernizr-2.8.0.min.js" | absURL }}" async></script>
+        <script rel="preload" src="{{ "js/vendor/modernizr-2.8.0.min.js" | absURL }}" async></script>
         {{ range .Site.Params.custom_css }}
         <link rel="stylesheet" href="{{ . | absURL }}">
         {{ end }}

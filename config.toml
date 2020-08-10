@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "/"
 languageCode = "en-us"
 title = "Aris' Tech journey /blog"
 # Define how many pages appear per site
@@ -87,7 +87,7 @@ defaultContentLanguageInSubdir = true
     useSessionStorage = true
 	
 	[params.twitter]
-		username = "Kharkovlanok"
+		username = "ArisBee_Cloud"
 
 	[params.logo]
 		url = "/img/profile-image.jpg"
@@ -103,13 +103,13 @@ defaultContentLanguageInSubdir = true
     # Add your social network accounts to the profile section on the left
     # by entering your username. The links to your account will be
     # create automatically.
-    twitter   = "Kharkovlanok"
+    twitter   = "ArisBee_Cloud"
     facebook  = ""
     linkedin  = "aristide-bouix"
     behance   = ""
     dribbble  = ""
     instagram = ""
-    github    = "Kharkovlanok"
+    github    = "ArisBee"
     gplus     = ""
 	  email     = "webmaster@arisidebouix.cloud"
 	
@@ -142,8 +142,3 @@ defaultContentLanguageInSubdir = true
 
 [outputs]
 	home = [ "HTML", "RSS", "JSON", "Algolia"]
-	
-[outputFormats]
-[outputFormats.RSS]
-  mediatype = "application/rss"
-  baseurl = "https://aristidebouix.cloud/"

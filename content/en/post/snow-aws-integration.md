@@ -18,7 +18,7 @@ Now that I'm on vacation, I wanted to introduce you to a project I've spent a co
 
 I have already dived a first time in the ServiceNow API while I was working at the Governance of a SOC service. There I tried to integrate ServiceNow to our processes using Google script to enhance the service workflow throughput[^1]. Sadly I wasn't able to go that much farther as the IT accountability department refused to give me required credentials. 
 
-This time I go a step farther with the full set-up of an API on AWS reacting to events in ServiceNow. As I detailed all the steps on my [Github account](https://github.com/Kharkovlanok/snow-aws-integration), instead of writing back the instructions here, I'm going to explain to you all of the insights between such an integration project. By that way, I mean what the reasons and use cases me and my team were aiming at.
+This time I go a step farther with the full set-up of an API on AWS reacting to events in ServiceNow. As I detailed all the steps on my [Github account](https://github.com/ArisBee/snow-aws-integration), instead of writing back the instructions here, I'm going to explain to you all of the insights between such an integration project. By that way, I mean what the reasons and use cases me and my team were aiming at.
 
 Let's start by explaining, for those who ain't familiar with it, what is ServiceNow and more generally a CMDB.
 
@@ -88,7 +88,7 @@ I've realized following up the README tutorial from the Github repository might 
 
 Stay tuned :satisfied: !!  
 
-[^1]: for those interested, I published the experiment as a [Gist](https://gist.github.com/Kharkovlanok/683b8bbf0bc4680b078f815b1b81c05c)
+[^1]: for those interested, I published the experiment as a [Gist](https://gist.github.com/ArisBee/683b8bbf0bc4680b078f815b1b81c05c)
 [^2]: according to the ITIL definition
 [^3]: which happens regrettably far too often
 
