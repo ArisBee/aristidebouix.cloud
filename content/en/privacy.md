@@ -11,6 +11,7 @@ Thank you for your interest in my privacy policy. This policy contains informati
 The following privacy policy is valid for:
 
 * https://aristidebouix.cloud/ (clearnet HTTPS version of my blog)
+* http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/ (self-hosted Tor mirror of my blog)
 
 ## __Short version of this privacy policy__
 

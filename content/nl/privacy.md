@@ -11,6 +11,7 @@ Bedankt voor uw interesse in mijn privacybeleid. Dit beleid bevat informatie ove
 Het volgende privacybeleid is geldig voor:
 
 * https://aristidebouix.cloud/ (clearnet HTTPS-versie van mijn blogg)
+* http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/ (zelf hosted Tor mirror van mijn blog)
 
 ## __Korte versie van dit privacybeleid__
 
