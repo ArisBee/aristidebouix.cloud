@@ -141,4 +141,4 @@ defaultContentLanguageInSubdir = true
 	params = ["categories", "tags"]
 
 [outputs]
-	home = [ "HTML", "RSS", "JSON", "Algolia"]
+	home = [ "HTML", "RSS", "Algolia"]

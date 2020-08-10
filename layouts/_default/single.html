@@ -2,7 +2,7 @@
 
     <main role="main" class="content">
         <article class="post">
-            <a class="btn home" href="{{ .Site.BaseURL | relLangURL }}" title="{{ i18n "back_to_home" }}">&laquo; {{ i18n "back_to_home" }}</a>
+            <a class="btn home" href="/{{ .Lang }}" title="{{ i18n "back_to_home" }}">&laquo; {{ i18n "back_to_home" }}</a>
             {{ partial "article-header" . }}
             {{ if not .Params.disableComments }}
             <table id="amazon-polly-audio-table"> 

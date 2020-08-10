@@ -4,7 +4,7 @@
 {{ if isset .Params "tags" }}
     {{ if gt (len .Params.tags) 0 }}&middot; {{ i18n "tagged_in" }}
         {{ range $i, $v := .Params.tags }}
-        <a href="{{ $.Site.BaseURL | relLangURL }}/tags/{{ $v | urlize }}">{{ $v | lower }}</a>{{ if ne (len $.Params.tags) (add $i 1) }}, {{ end }}
+        <a href="/{{ $.Lang }}/tags/{{ $v | urlize }}">{{ $v | lower }}</a>{{ if ne (len $.Params.tags) (add $i 1) }}, {{ end }}
         {{ end }}
     {{ end }}
 {{ end }}
