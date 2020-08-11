@@ -18,9 +18,9 @@ To come ...
 
 ## Public Slides & Conferences
 
-* [2019-10-18 Security Operations Management](https://github.com/Kharkovlanok/meetups/blob/master/2019-10-18%20Security%20Operations%20Management.pdf) (Online webinar for @Maxim Nyansa IT Solutions, NGO)
-* [2018-06-04 Introduction to Container Security](https://github.com/Kharkovlanok/meetups/blob/master/2018-06-04%20Introduction%20to%20Container%20Security.pdf) (@Devoteam Secusphere meetup)
-* [2017-09-14 Native AWS SOC Implementation](https://github.com/Kharkovlanok/meetups/blob/master/2017-09-14%20Native%20AWS%20SOC%20Implementation.pdf)(@Devoteam Secusphere meetup)
+* [2019-10-18 Security Operations Management](https://github.com/ArisBee/meetups/blob/master/2019-10-18%20Security%20Operations%20Management.pdf) (Online webinar for @Maxim Nyansa IT Solutions, NGO)
+* [2018-06-04 Introduction to Container Security](https://github.com/ArisBee/meetups/blob/master/2018-06-04%20Introduction%20to%20Container%20Security.pdf) (@Devoteam Secusphere meetup)
+* [2017-09-14 Native AWS SOC Implementation](https://github.com/ArisBee/meetups/blob/master/2017-09-14%20Native%20AWS%20SOC%20Implementation.pdf)(@Devoteam Secusphere meetup)
 
 ## Quotes / Involvment
 
