@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="{{ .Site.Params.locale }}">
+<html class="no-js" lang="{{ .Lang }}">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,7 +24,7 @@
         <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}" />
 		<script rel="preload" src="{{ "js/vendor/highlight.min.js" | absURL }}" ></script>
 		<script>hljs.initHighlightingOnLoad();</script>
-		<script>window.jQuery || document.write('<script src="{{ "js/vendor/jquery-1.11.0.min.js" | absURL }}"><\/script>')</script>
+		<script>window.jQuery || document.write('<script src="{{ "js/vendor/jquery-3.5.1.min.js" | absURL }}"><\/script>')</script>
 		{{ partial "site-opengraph.html" . }}
 		{{ partial "site-twitter.html" . }}
 		<script rel="preload" src="{{ "js/bootstrap.min.js" | absURL }}" async></script>

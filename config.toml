@@ -63,10 +63,10 @@ defaultContentLanguageInSubdir = true
 	disableLanguageSwitchingButton = false
   # Link custom assets relative to /static
     avatar = "img/profile-image.jpg"
-    header_background = "img/desk.jpg"
+    header_background = "img/desk.webp"
     header_title = "Ari's Tech journey /blog"
     copyright = "Aristide Bouix -- Powered by [Hugo](http://gohugo.io)"
-	images = ["/img/desk.jpg"]
+	images = ["/img/desk.webp"]
   custom_css = []
   custom_js  = []
 
