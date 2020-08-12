@@ -14,7 +14,7 @@ abo:
     height: 600
 ---
 
-### <span style="color:red">**WARNING: _THE METHOD DESCRIBED IN THIS ARTICLE IS ONLY TARGETING PEOPLE WHO HAVE AWS CREDIT TO LOOSE, DON'T USE IT WITH PROFITS IN MIND_**</span>
+### <span style="color:red">WARNING: THE METHOD DESCRIBED IN THIS ARTICLE IS ONLY TARGETING PEOPLE WHO HAVE AWS CREDIT TO LOOSE, DON'T USE IT WITH PROFITS IN MIND </span>
 
 Considering cloud instances are usually expensive, and price of cryptocurrencies ( and especially the ones that are still minable with CPU and GPU ) are collapsing lately, most of you must think I'm turning mad. And, indeed, the target of this walkthrough is absolutely **NOT BEING PROFITABLE**.
 

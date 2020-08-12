@@ -87,9 +87,9 @@ Here a table resuming the chronology of an escalation attempt per level of API c
 <table>
 	  <tr>
 		<th>Escalation process summary</th>
-		<th>\\(1^{st}\\) compromised API call</th> 
-		<th>\\(2^{nd}\\) compromised API call</th>
-		<th>\\(3^{rd}\\) compromised API call</th>
+		<th>\(1^{st}\) compromised API call</th> 
+		<th>\(2^{nd}\) compromised API call</th>
+		<th>\(3^{rd}\) compromised API call</th>
 	  </tr>
 	  <tr>
 		<td>Change attacker current policy version</td>
@@ -183,9 +183,9 @@ There are a few remaining possible cases which don't necessitate IAM by using th
 <table>
 	  <tr>
 		<th>Escalation process summary</th>
-		<th>\\(1^{st}\\) compromised API call</th> 
-		<th>\\(2^{nd}\\) compromised API call</th>
-		<th>\\(3^{rd}\\) compromised API call</th>
+		<th>\(1^{st}\) compromised API call</th> 
+		<th>\(2^{nd}\) compromised API call</th>
+		<th>\(3^{rd}\) compromised API call</th>
 	 </tr>
 	<tr>
 		<td>The attacker update the code of an existing lambda to raise his or her permissions</td>
@@ -223,7 +223,7 @@ First, let's identify all the data container services that could be subject to a
 ![Ransomable AWS services](/post/attack-aws/data.PNG)
 
 For most of those services, you can make a snapshot of the live production data, encrypt the original data with a new KMS you schedule the deletion in 7 days, export the snapshot in an s3 bucket in the account and then copy all the content of that bucket in a bucket you own or directly download it on a local machine.  
-Of course, the attacker made sure he or she has the permission to do all of those actions during the [**Escalation**]({{< ref "#escalation">}}) step.
+Of course, the attacker made sure he or she has the permission to do all of those actions during the **[Escalation]({{< ref "#escalation">}})** step.
 
 **Mitigation**: Frankly speaking, if you were not able to prevent the attacker going that far you are [doomed](https://threatpost.com/hacker-puts-hosting-service-code-spaces-out-of-business/106761/). Possibly if you had a multi-AWS account strategy ( Which wasn't the case of **Code Spaces** ) and you thought regularly replicating your production data in another account you may be able to recover.
 
@@ -238,7 +238,7 @@ As this article is getting already longer than what I expected, I've decided to 
 [^1]: Often wrongly
 [^2]: Mostly AWS S3 ( [Accenture](https://www.zdnet.com/article/accenture-left-a-huge-trove-of-client-passwords-on-exposed-servers/ ), [NSA](https://www.bleepingcomputer.com/news/security/top-secret-us-army-and-nsa-files-left-exposed-online-on-amazon-s3-server/), a [phone spying company](https://motherboard.vice.com/en_us/article/9kmj4v/spyware-company-spyfone-terabytes-data-exposed-online-leak), ... )
 [^3]: From [Tesla](https://www.wired.com/story/cryptojacking-tesla-amazon-cloud/) to this random user on [reddit](https://www.reddit.com/r/aws/comments/8min7a/old_aws_account_compromised_how_to_deal_with/)
-[^4]: If you're interested in how to set-up the process, see my previous article [*Mining on AWS*]({{< relref "mining-on-aws.md" >}})
+[^4]: If you're interested in how to set-up the process, see my previous article *[Mining on AWS]({{< relref "mining-on-aws.md" >}})*
 [^5]: This last option is less likely as AWS always set-up instances with an ssh key at launch
 [^6]: If you need more detail on the different AWS services level of permission, the best-summarized source I've found is on [cloudonaut](https://iam.cloudonaut.io)
 [^7]: While I'm writing this post, the public hosted version has been discontinued, and you will have to set up your own instance using sources [here](https://github.com/Runscope/requestbin#readme)

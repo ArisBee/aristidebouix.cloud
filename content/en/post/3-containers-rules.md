@@ -17,6 +17,7 @@ As containers became a standard in IT applications, enumerating a few security b
 
 
 </br>
+
 ## **I Careful with share volumes you will be**
 
 Contrary to a Virtual Machine, a Docker container uses the host kernel directly, so in case of a kernel vulnerability restricted permissions on shared resources won’t protect you from an attacker.
@@ -25,6 +26,7 @@ I won't make a video on how to exploit this vulnerability, but if you're interes
 </br>
 
 </br>
+
 ## **II Control your container resources, don’t let them control you**
 
 When running your containers, you can use options to prevent them from using more than a certain amount of ram or cpu with `--limit-memory` and `--limit-cpu`, or even directly control which and how many processes' can be used with `--ulimit`.
@@ -40,6 +42,7 @@ Below a demonstration of how those commands can prevent the execution of a conta
 </br>
 
 </br>
+
 ## **III Limit your container permissions before they limit you**
 
 By default, commands launched inside of a container are executed from the root user. Letting your container using root syscall on the host Kernel can represent a huge security risk in case of container compromise.
