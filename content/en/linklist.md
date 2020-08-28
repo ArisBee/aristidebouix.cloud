@@ -20,7 +20,7 @@ Here a list of links to different web resources on various subjects.
 * [Online Metadata viewer](http://exif.regex.info/exif.cgi): If you're lazy to have it offline.
 * [Tools tldr](https://tools.tldr.run/): A script or tool not in this list? Then you can probably find it there
 
-## Privacy/Anonymity/Decentralized services
+## Privacy/Anonymity/Decentralized services 
 
 * [Darkwire](https://darkwire.io): An anonymous web chat service
 * [Cloudfare ipfs](https://cloudflare-ipfs.com/ipfs/): Domain for Cloudflare IPFS implementation
@@ -34,7 +34,7 @@ Here a list of links to different web resources on various subjects.
 * [Kycnot.me](https://kycnot.me/): Many cryptocurrencies services accessible without ANY identity control. I would never expected we would need such a website 5 years ago where anonymity was the agreed norm.
 * [Pandemic Big Brother](https://pandemicbigbrother.online/en/): Makes me wish to emigrate to Sweden
 
-## Tor .onion websites
+## Tor .onion websites {#tor-onion-websites}
 
 * [Ahmia](http://msydqstlz2kzerdg.onion/): First, a darkweb specialized search engine
 * [The Pirate Bay](http://uj3wazyk5u4hnvtk.onion)

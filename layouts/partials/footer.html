@@ -54,6 +54,10 @@ window.cookieconsent.initialise({
 
 {{ template "_internal/google_analytics.html" . }}
 
+{{ if (findRE "<pre" .Content 1) }}
+    <script src="/js/copy-code-button.js"></script>
+{{ end }}
+
 
 
 

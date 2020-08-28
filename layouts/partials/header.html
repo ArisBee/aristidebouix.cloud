@@ -10,7 +10,7 @@
 		<meta name="keywords" content="Aristide,Bouix,AWS,Amazon,Cloud,automation,Docker,cybersecurity,sysadmin,DevOps,security,SecDevOps,lifehack,privacy,Unix,Linux,geek,nerd">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="onion-location" content="http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/ " />
-        {{ .Hugo.Generator }}
+        {{ hugo.Generator }}
         <link href="{{ "post/index.xml" | absURL }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
         <link href="{{ "post/index.xml" | absURL }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
         <link rel="stylesheet" href="{{ "css/styles.css" | absURL }}">
@@ -24,7 +24,7 @@
         <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}" />
 		<script rel="preload" src="{{ "js/vendor/highlight.min.js" | absURL }}" ></script>
 		<script>hljs.initHighlightingOnLoad();</script>
-		<script>window.jQuery || document.write('<script src="{{ "js/vendor/jquery.min.js" | absURL }}"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="{{ "js/vendor/jquery.min.js" | absURL }}"><\/script>')</script>
 		{{ partial "site-opengraph.html" . }}
 		{{ partial "site-twitter.html" . }}
 		<script rel="preload" src="{{ "js/bootstrap.min.js" | absURL }}" async></script>
