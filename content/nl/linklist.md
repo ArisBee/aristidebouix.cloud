@@ -34,7 +34,7 @@ Hier een lijst met links naar verschillende webbronnen over verschillende onderw
 * [Kycnot.me](https://kycnot.me/): Veel cryptocurrency diensten die toegankelijk zijn zonder enige vorm van identiteitscontrole. Ik had nooit verwacht dat we zo'n website 5 jaar geleden nodig zouden hebben omdat anonimiteit de afgesproken norm was.
 * [Pandemic Big Brother](https://pandemicbigbrother.online/en/): Maakt me wensen om te emigreren naar Zweden
 
-## Tor .onion websites
+## Tor .onion websites {#tor-onion-websites}
 
 * [Ahmia](http://msydqstlz2kzerdg.onion/): Eerst, een gespecialiseerde search engine voor het darkweb
 * [The Pirate Bay](http://uj3wazyk5u4hnvtk.onion)
