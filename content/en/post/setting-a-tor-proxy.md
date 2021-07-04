@@ -25,12 +25,12 @@ But why is the Tor browser so slow? It's because it uses another encrypted and z
 
 ![Different types of Tor relay](/post/tor-proxy/torcircuit.png "Source: https://medium.com/coinmonks/tor-nodes-explained-580808c29e2d")
 
-* **Entry relay node**: First relay node in the Tor circuit. As such, they see the client identity and could be targeted by external attackers. They are publicly known and listed on the Tor project website, also easy to block and censor.
-* **Middle relay node**: Intermediate hope that pass encrypted data within the network, they only know descending and ascending nodes and may connect to both an Entry or Relay node.
-* **Exit relay node**: These nodes act as bridges between the Tor network and the Internet. Exiting traffic is seen on a clear net website as coming from these nodes. Also, they are publicly known and frequently tagged by most online web service and security teams.
-* **Bridge relay node**: Entry relay node that isn't publicly listed on the Tor project website, as such they are harder to block by ISP and governments and fit pretty well, and are very convenient for an individual on a Business strip in countries you wouldn't visit for tourism.
+- **Entry relay node**: First relay node in the Tor circuit. As such, they see the client identity and could be targeted by external attackers. They are publicly known and listed on the Tor project website, also easy to block and censor.
+- **Middle relay node**: Intermediate hope that pass encrypted data within the network, they only know descending and ascending nodes and may connect to both an Entry or Relay node.
+- **Exit relay node**: These nodes act as bridges between the Tor network and the Internet. Exiting traffic is seen on a clear net website as coming from these nodes. Also, they are publicly known and frequently tagged by most online web service and security teams.
+- **Bridge relay node**: Entry relay node that isn't publicly listed on the Tor project website, as such they are harder to block by ISP and governments and fit pretty well, and are very convenient for an individual on a Business strip in countries you wouldn't visit for tourism.
 
-In a traditional Client-Server HTTP connection, they both need to mutually authenticate to have the server send data to the client. During the connection to a Tor Hidden Service, the server and the client communicate over an intermediate rendez-vous point in the network, so no information is directly transmitted. This is important as it prevents the recording on the server of personally identifiable data such as User-Agent or IP address. 
+In a traditional Client-Server HTTP connection, they both need to mutually authenticate to have the server send data to the client. During the connection to a Tor Hidden Service, the server and the client communicate over an intermediate rendez-vous point in the network, so no information is directly transmitted. This is important as it prevents the recording on the server of personally identifiable data such as User-Agent or IP address.
 
 # Why does it matter
 
@@ -51,11 +51,11 @@ Once logged in the VPS, install the Tor software, for the rest of this tutorial 
 ```bash
 apt update
 apt install tor
-``` 
+```
 
 Note that Debian official [Tor package](https://packages.debian.org/stretch/tor) is late behind the current release, so you will need to add the official package list maintained by the Tor project team to your apt sources list file, see the following [tutorial](https://support.torproject.org/apt/tor-deb-repo/).
 
-This is quite important as the version 2 of the Tor server software only support Hidden services v2 that won't be relayed by the network in a future Tor release, see the below announcement on Twitter: 
+This is quite important as the version 2 of the Tor server software only support Hidden services v2 that won't be relayed by the network in a future Tor release, see the below announcement on Twitter:
 
 {{< tweet 1286731153957777409 >}}
 
@@ -91,17 +91,17 @@ tail -30 /var/log/syslog
 
 Now the proxy part, I firstly fell on this interesting [Github repository](https://github.com/itinerantfoodie/http-localhost-pipe), while this does work, the first thing I've noticed is a big <span style="color:red">**REQUEST IS DEPRECATED**</span> warning as soon as I run the script. This forward you to an nice to read [Github issue thread](https://github.com/request/request/issues/3142) but which doesn't propose any ready-to-use alternative to the `request().pipe(response)` javascript streaming method.
 
-Those last two years, I wrote much more ppt than lines of codes. I was also looking for a simple and well-maintained package and finally found this perl based on the `http-proxy` NodeJS library. It makes this proxy server code literally fit in 5 lines!![^3]
+Those last two years, I wrote much more ppt than lines of codes. I was also looking for a simple and well-maintained package and finally found [this perl](https://www.npmjs.com/package/http-proxy-middleware) based on the `http-proxy` NodeJS library. It makes this proxy server code literally fit in 5 lines!![^3]
 
 Alright, now let's install the latest nvm and NodeJs LTS version (12.18.1 at the time of this post):
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 #Check the latest NodeJS LTS version:
-nvm ls-remote 
+nvm ls-remote
 nvm install 12.18.1
 #Make the latest NodeJS LTS version the default one:
-nvm alias default 12.18.1 
+nvm alias default 12.18.1
 nvm use defaut
 ```
 
@@ -118,14 +118,20 @@ Now add the clearnet version of your website in the index.js file as below:
 
 ```javascript
 // We load the express package
-const express = require('express');
+const express = require("express");
 // We create an express app
 const app = express();
 // We create a proxy object based on the http-proxy-middleware package and class
-const { createProxyMiddleware } = require('http-proxy-middleware');
+const { createProxyMiddleware } = require("http-proxy-middleware");
 
-// Our app input stream a target website, change the target to your convenience 
-app.use('/', createProxyMiddleware({ target: 'https://aristidebouix.cloud', changeOrigin: true }));
+// Our app input stream a target website, change the target to your convenience
+app.use(
+  "/",
+  createProxyMiddleware({
+    target: "https://aristidebouix.cloud",
+    changeOrigin: true,
+  })
+);
 // Our app can be accessed on localhost port 3000 which is our hidden service
 app.listen(3000);
 ```
@@ -136,7 +142,7 @@ Of course, you could improve with some error handling, but I keep it short for t
 node index.js &
 ```
 
-When you now access the previous .onion address through the Tor browser, you should now see this website, for instance, this current website: [http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/](http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/) 
+When you now access the previous .onion address through the Tor browser, you should now see this website, for instance, this current website: [http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/](http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/)
 
 In case you wish to stop and restart the proxy, you can do as follow:
 
@@ -156,7 +162,10 @@ Okido, now you have a Tor version of your site running, but how to let your user
 To summarize, you can either add a meta tag in your website HTML header or return an Onion-Location HTTP reader from your server to let every Tor client accessing your website know the new .onion address. In my specific case, the HTTP response header added to my Lambda@Edge function [^4] wasn't always recognized. Also, I added the following meta tag:
 
 ```html
-<meta http-equiv="onion-location" content="http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/ " />
+<meta
+  http-equiv="onion-location"
+  content="http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/ "
+/>
 ```
 
 ![Tor Location](/post/tor-proxy/torLocation.jpeg)

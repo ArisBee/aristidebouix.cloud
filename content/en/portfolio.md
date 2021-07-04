@@ -2,9 +2,8 @@
 title = "Portfolio"
 featureimage = ""
 draf = true
-menu = "nav"
+menu = ""
 disableComments = true
 type = "static"
 layout = "portfolio"
 +++
-
