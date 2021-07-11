@@ -4,6 +4,7 @@
         <article class="post">
             <a class="btn home" href="/{{ .Lang }}" title="{{ i18n "back_to_home" }}">&laquo; {{ i18n "back_to_home" }}</a>
             {{ partial "article-header" . }}
+            <img src="https://visitor-badge.glitch.me/badge?page_id={{ .Permalink }}" alt="Views"/>
             {{ if .Params.audio }}
             <table id="amazon-polly-audio-table"> 
                 <tbody> 
