@@ -22,8 +22,6 @@ Here a list of links to different web resources on various subjects.
 
 ## Privacy/Anonymity/Decentralized services
 
-- [Darkwire](https://darkwire.io): An anonymous web chat service
-- [Cloudfare ipfs](https://cloudflare-ipfs.com/ipfs/): Domain for Cloudflare IPFS implementation
 - [Dnsleaktest](https://www.dnsleaktest.com): check if your VPN is leaking your IP address
 - [Ipleak](https://ipleak.net/): Alternative website to Dnsleaktest
 - [Witch](http://witch.valdikss.org.ru/): check client info, useful to see if you're OpenVPN software is well implemented (detectable, change default port)
@@ -77,7 +75,6 @@ Here a list of links to different web resources on various subjects.
 - [Cloudformation Roadmap](https://github.com/aws-cloudformation/aws-cloudformation-coverage-roadmap/projects/1): Official AWS maintained list of upcoming Cloudformation features,definitely a crucial resource.
 - [AWS History](https://www.awsgeek.com/AWS-History/): A list to help you tracking announced AWS services and their release.
 - [Lambda Coldstart](https://coldstart.nordclouddemo.com/): A handy resource provided by Nordcloud to check lambda coldstart according: runtime, region, size, memory. And they run it twice a day!!
-- [Spotcost](https://spotcost.net/): Regularly updated table stats of all the spot instances avalaible on AWS, I let you dive in.
 - [AWS exposable resources](https://github.com/SummitRoute/aws_exposable_resources): List of AWS resources that can inadvertently be made public :scream:
 
 ## Other Clouds (GCP, Azure ...)
@@ -169,7 +166,6 @@ Here a list of links to different web resources on various subjects.
 
 ## Miscellaneous
 
-- [Nasa-software](https://software.nasa.gov/): A list of softwares made public by the NASA
 - [Xsv](https://github.com/BurntSushi/xsv): A tool to easily manipulate CSV files
 - [Amazondating](https://amazondating.co/): What if Amazon was releasing the new dating App generation :grin:
 - [MSPaintIDE](https://github.com/RubbaBoy/MSPaintIDE): Tool to make of MSPaint your favorite IDE :smile:
