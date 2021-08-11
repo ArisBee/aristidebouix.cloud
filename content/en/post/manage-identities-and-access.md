@@ -13,6 +13,6 @@ abo:
     height: 600
 ---
 
-This article was published in the first Compact edition of 2021: **Cloud Computing**
+My article was featured and published in the first Compact edition of 2021: **Cloud Computing**
 
 <a href="https://www.compact.nl/articles/managing-identities-and-access-in-the-amazon-public-cloud/" target="blank"> ![Compact 2021/1 Cloud Computing](/post/compact/compact21.png#center) </a>

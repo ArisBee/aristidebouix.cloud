@@ -13,13 +13,13 @@ I'm Aristide, an IT Security Architect based in Europe.
 
 Officially, my job is to allow IT applications to run as smoothly and securely as possible by reviewing the underlayer process and technologies. It goes from risk analysis to decision making and project management as well as the training and sensibilization of company staff to security best practices.
 
-Which really means that I need to keep a good knowledge of available products and solutions on the market to guarantee they can be integrated together efficiently.  Basically, It’s all about being curious and experimental, there are so many technologies and process that can be leveraged to create new services, way of thinking and business prospectives.   
+Which really means that I need to keep a good knowledge of available products and solutions on the market to guarantee they can be integrated together efficiently. Basically, It’s all about being curious and experimental, there are so many technologies and process that can be leveraged to create new services, way of thinking and business prospectives.
 
 ### What is this blog about?
 
 According to where my inspiration will drive me, I cannot guarantee what will be the exact content of this blog; it can go very technical on a new technology I'm playing with ( for instance containers and orchestrators, a new AWS service or even Solidity and smart contracts programming ). Maybe some helpful tweaks to make your IT professional work smoother, my opinion on a hot actuality topic or some common security misconceptions I came across and my return of experience. Perhaps I'll also consider publishing some travel photo books as I love traveling in East Asia where I usually spend at least a month every year.
 
-If you're curious to discover what value I have to bring you, you can already subscribe to my [RSS feed](https://aristidebouix.cloud/en/index.xml) and follow me on [Twitter](http://twitter.com/Kharkovlanok) or [Mastodon](https://mastodon.cloud/@abouix). Don't hesitate to let comments and feedbacks on publications you like or don't like or send me an [email](mailto:webmaster@aristidebouix.cloud) for particular suggestions.
+If you're curious to discover what value I have to bring you, you can already subscribe to my [RSS feed](https://aristidebouix.cloud/en/index.xml) and follow me on [Twitter](http://twitter.com/ArisBee_Cloud) or [Mastodon](https://mastodon.cloud/@abouix). Don't hesitate to let comments and feedbacks on publications you like or don't like or send me an [email](mailto:webmaster@aristidebouix.cloud) for particular suggestions.
 
 ### Can we chat securely?
 
@@ -68,8 +68,5 @@ GYfDohHh42SVMtFMsW81dBNqm38KCHZQCi
 <center>
 <b>Gulden</b>
 </center>
-
-
-
 
 \- Aristide

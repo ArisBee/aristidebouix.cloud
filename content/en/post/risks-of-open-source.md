@@ -13,6 +13,6 @@ abo:
     height: 600
 ---
 
-This article was published in the first Compact edition of 2020: **Cyber Security & Privacy**
+My article was featured and published in the first Compact edition of 2020: **Cyber Security & Privacy**
 
 <a href="https://www.compact.nl/articles/the-risks-of-open-source-software-for-corporate-use/" target="blank"> ![Compact 2020/1 Cyber Security & Privacy](/post/compact/compact20.png#center) </a>
