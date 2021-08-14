@@ -52,7 +52,7 @@ window.cookieconsent.initialise({
 <link rel="stylesheet" href="{{ . | absURL }}">
 {{ end }}
 
-{{ template "_internal/google_analytics.html" . }}
+{{ template "_default/analytics-gtag.html" . }}
 
 {{ if (findRE "<pre" .Content 1) }}
     <script src="/js/copy-code-button.js"></script>
