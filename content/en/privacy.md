@@ -123,7 +123,7 @@ The legal basis for processing your personal data is Article 6(1) a GDPR.
 
 ### **Glitch, Inc, USA**
 
-I regis. No personal data is involved. If you wish to make me a donation through the badgerwallet or any other cryptocurrency listed on my About page, your sending cryptocurrency address and the amount of the donation will be recorded on the corresponding blockchain and cannot be erased by me or any other third party.
+I use the opensource tool [visitor-badge](https://visitor-badge.glitch.me/) to count how many users are viewing each page of my blog. No personal data is involved. The code is currently hosted on [Glitch](https://glitch.com/).
 
 The legal basis for processing your personal data is Article 6(1) a GDPR.
 
