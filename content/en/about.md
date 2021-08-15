@@ -3,6 +3,7 @@ title = "About"
 featureimage = ""
 menu = "nav"
 disableComments = true
+description = "About"
 +++
 
 ### Who am I?

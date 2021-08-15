@@ -3,6 +3,7 @@ title = "Useful links"
 featureimage = ""
 menu = "nav"
 disableComments = true
+description = "Useful links"
 +++
 
 Here a list of links to different web resources on various subjects.

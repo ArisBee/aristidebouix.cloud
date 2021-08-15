@@ -3,6 +3,7 @@ title = "Speaking"
 featureimage = ""
 menu = "nav"
 disableComments = true
+description = "External Speaking"
 +++
 
 ## Books

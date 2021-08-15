@@ -1,12 +1,12 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Aris' Tech journey /blog"
+title = "Aris' Tech /blog"
 # Define how many pages appear per site
 paginate = 5
 # Enable comments powered by Disqus by entering your disqus shortname
 disqusShortname = "pachli-1"
 # Enable gogle analytics by entering your tracking code
-googleAnalytics = "UA-114578285-1"
+googleAnalytics = "G-M5QMME4DD"
 # Remove this line if you use this theme for a real website.
 # It allows you to preview the theme within the exampleSite folder
 # with the hugo server command
@@ -64,7 +64,7 @@ defaultContentLanguageInSubdir = true
   # Link custom assets relative to /static
     avatar = "img/profile-image.jpg"
     header_background = "img/desk.webp"
-    header_title = "Ari's Tech journey /blog"
+    header_title = "Ari's Tech /blog"
     copyright = "Aristide Bouix -- Powered by [Hugo](http://gohugo.io)"
 	images = ["/img/desk.webp"]
   custom_css = []

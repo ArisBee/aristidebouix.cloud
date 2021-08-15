@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>{{ if .IsNode}}{{ .Title }} &middot; {{end}}{{ .Site.Title }}</title>
+        <title>{{ if .Title }}{{ .Title }}{{ else if .Site.title }}{{ .Site.title }}{{ else }}Hello World!{{ end }}</title>
         <meta name="author" content="{{ .Site.Params.site_author }}">
 		<meta name="flattr:id" content="lj9epk">
         <meta name="description" content="{{ if .Params.description }}{{ .Params.description }}{{ else if .Site.Params.site_description }}{{ .Site.Params.site_descriptionn }}{{ else }}Hello World!{{ end }}"/>   
