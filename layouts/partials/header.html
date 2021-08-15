@@ -6,7 +6,7 @@
         <title>{{ if .IsNode}}{{ .Title }} &middot; {{end}}{{ .Site.Title }}</title>
         <meta name="author" content="{{ .Site.Params.site_author }}">
 		<meta name="flattr:id" content="lj9epk">
-        <meta name="description" content="{{ .Site.Params.site_description }}">
+        <meta name="description" content="{{ if .Params.description }}{{ .Params.description }}{{ else if .Site.Params.site_description }}{{ .Site.Params.site_descriptionn }}{{ else }}Hello World!{{ end }}"/>   
 		<meta name="keywords" content="Aristide,Bouix,AWS,Amazon,Cloud,automation,Docker,cybersecurity,sysadmin,DevOps,security,SecDevOps,lifehack,privacy,Unix,Linux,geek,nerd">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="onion-location" content="http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/ " />
