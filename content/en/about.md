@@ -10,7 +10,7 @@ description = "About"
 
 First of all, welcome on my blog!
 
-I'm Aristide, an IT Security Architect based in Europe.
+I'm Aristide, an Engineer currently building the security roadmap for Catawiki's Auction Platform. Catawiki is a bit like Ebay, but of much better taste and explicitely designed to satisfy the needs of passionate collectors of all kind.
 
 Officially, my job is to allow IT applications to run as smoothly and securely as possible by reviewing the underlayer process and technologies. It goes from risk analysis to decision making and project management as well as the training and sensibilization of company staff to security best practices.
 
@@ -18,13 +18,13 @@ Which really means that I need to keep a good knowledge of available products an
 
 ### What is this blog about?
 
-According to where my inspiration will drive me, I cannot guarantee what will be the exact content of this blog; it can go very technical on a new technology I'm playing with ( for instance containers and orchestrators, a new AWS service or even Solidity and smart contracts programming ). Maybe some helpful tweaks to make your IT professional work smoother, my opinion on a hot actuality topic or some common security misconceptions I came across and my return of experience. Perhaps I'll also consider publishing some travel photo books as I love traveling in East Asia where I usually spend at least a month every year.
+According to where my inspiration will drive me, I cannot guarantee what will be the exact content of this blog; it can go very technical on a new technology I'm playing with ( for instance containers and orchestrators, a new Cloud service or even Blockchain and smart contracts programming ). Maybe some helpful tweaks to make your IT professional work smoother, my opinion on a hot actuality topic or some common security misconceptions I came across and my return of experience. Perhaps I'll also consider publishing some travel photo books as I love traveling in East Asia where I usually spend at least a month every year.
 
 If you're curious to discover what value I have to bring you, you can already subscribe to my [RSS feed](https://aristidebouix.cloud/en/index.xml) and follow me on [Twitter](http://twitter.com/ArisBee_Cloud) or [Mastodon](https://mastodon.cloud/@abouix). Don't hesitate to let comments and feedbacks on publications you like or don't like or send me an [email](mailto:webmaster@aristidebouix.cloud) for particular suggestions.
 
 ### Can we chat securely?
 
-Sure, you can use pgp:
+Sure, you can use PGP:
 
 ```bash
 gpg --keyserver pgp.mit.edu --recv-key 4df61124418a0d33
