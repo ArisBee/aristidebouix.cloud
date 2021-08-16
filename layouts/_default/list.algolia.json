@@ -4,7 +4,7 @@
 {{- $validVars := $.Param "algolia.vars" | default slice -}}
 {{- $validParams := $.Param "algolia.params" | default slice -}}
 {{/*- range $i, $hit := .Site.AllPages -*/}}
-{{- range $i, $hit := where (where .Site.AllPages "Type" "in" (slice "post")) "IsPage" true -}}
+{{- range $i, $hit := where (where .Site.AllPages "Type" "in" (slice "posts")) "IsPage" true -}}
   {{- $dot := . -}}
   {{- if or (and ($hit.IsDescendant $section) (and (not $hit.Draft) (not $hit.Params.private))) $section.IsHome -}}
 	{{/* Set the hit's objectID */}}
