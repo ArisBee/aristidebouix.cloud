@@ -24,7 +24,7 @@ If you're curious to discover what value I have to bring you, you can already su
 
 ### Can we chat securely?
 
-Sure, you can use gpg:
+Sure, you can use pgp:
 
 ```bash
 gpg --keyserver pgp.mit.edu --recv-key 4df61124418a0d33

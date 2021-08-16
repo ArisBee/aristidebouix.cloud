@@ -6,7 +6,7 @@ paginate = 5
 # Enable comments powered by Disqus by entering your disqus shortname
 disqusShortname = "pachli-1"
 # Enable gogle analytics by entering your tracking code
-googleAnalytics = "G-M5QMME4DD"
+googleAnalytics = "UA-114578285-1"
 # Remove this line if you use this theme for a real website.
 # It allows you to preview the theme within the exampleSite folder
 # with the hugo server command
