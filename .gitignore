@@ -7,4 +7,4 @@ dist
 tmp
 /public/
 /resources/_gen/
-
+mac2linux.sh

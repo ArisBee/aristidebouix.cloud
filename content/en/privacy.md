@@ -109,7 +109,7 @@ Algolia Inc ([read their privacy policy](https://www.algolia.com/policies/privac
 
 The legal basis for processing your personal data is Article 6(1) a GDPR.
 
-### **Cloudflare Inc, USA**
+### **Cloudflare Inc, USA** {#cloudflare}
 
 I use Cloudflare ([read their privacy policy](https://www.cloudflare.com/privacypolicy/)) as a caching service to serve an HTML-to-LaTeX parsing [javascript](https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML) to render mathematics formula in my blogposts. I haven't found a more elegant way to serve this library properly at the moment. You will note that Cloudflare doesn't collect any data for this service.
 
