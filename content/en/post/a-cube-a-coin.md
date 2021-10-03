@@ -1,6 +1,6 @@
 ---
 title: "A cube, a quintillion dollars coin and the power of decimals"
-date: "2021-10-02"
+date: "2021-10-03"
 description: "A discussion on the measure of hypothetical bullion coins and bars"
 categories: ["Actuality"]
 tags: ["mathematics", "coin", "random"]
