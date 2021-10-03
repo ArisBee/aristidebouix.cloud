@@ -38,7 +38,7 @@ And some other small things such as:
 - You can support my blog using [Flattr](https://flattr.com)
 - Got some more AWS certifications to show up FTW
 
-All of this makes me realize this project of having my own website evolved a lot over the past year. I review my first attempt on a static and very basic html gandi blog which was supposed to be a temporary version the time to develop a blogging application in [django](https://github.com/Kharkovlanok/my-first-blog) having this excellent [starter kit](https://tutorial.djangogirls.org/en/) for foundation, plus some professional experience.
+All of this makes me realize this project of having my own website evolved a lot over the past year. I review my first attempt on a static and very basic html gandi blog which was supposed to be a temporary version the time to develop a blogging application in [django](https://github.com/ArisBee/my-first-blog) having this excellent [starter kit](https://tutorial.djangogirls.org/en/) for foundation, plus some professional experience.
 
 However, I've found spending 20 bucks a month passed the AWS free tiers year wasn't a viable solution no more than redeploying my website in a new AWS account every year to get a new free tier. Furthermore handling a full Django stack is tedious and I really don't need to manage a whole database for such a small blog at the moment. Also, instead of going through Wordpress ~~and opening the doors to insecurity~~, I've decided to use a static website generator. I think my website is now close to being complete in term of features, and promise I won't add any chatbot :smirk:, so here the articles on my roadmap for 2019 :
 

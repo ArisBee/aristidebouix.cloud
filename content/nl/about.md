@@ -13,13 +13,13 @@ Ik ben Aristide, een IT Beveiligingsarchitect uit Nederland.
 
 Officieel is het mijn baan om IT-applicaties zo soepel en veilig mogelijk te laten werken door het proces en de technologieën van de underlayer te herzien. Het gaat van risicoanalyse tot besluitvorming en projectbeheer, evenals de training en sensibilisatie van personeel van het bedrijf tot beste praktijken op het gebied van beveiliging.
 
-Dat betekent echt dat ik een goede kennis van beschikbare producten en oplossingen op de markt moet houden om te garanderen dat ze efficiënt met elkaar kunnen worden geïntegreerd. Kortom, het gaat allemaal om nieuwsgierig en experimenteel zijn, er zijn zoveel technologieën en processen die kunnen worden gebruikt om nieuwe diensten, denkwijzen en zakelijke prospecten te creëren.   
+Dat betekent echt dat ik een goede kennis van beschikbare producten en oplossingen op de markt moet houden om te garanderen dat ze efficiënt met elkaar kunnen worden geïntegreerd. Kortom, het gaat allemaal om nieuwsgierig en experimenteel zijn, er zijn zoveel technologieën en processen die kunnen worden gebruikt om nieuwe diensten, denkwijzen en zakelijke prospecten te creëren.
 
 ### Waar gaat deze blog over?
 
 Afhankelijk van waar mijn inspiratie mij zal brengen, ik kan niet garanderen wat de exacte inhoud van deze blog zal zijn; het kan heel technisch gaan op een nieuwe technologie waarmee ik speel (bijvoorbeeld containers en orkestrators, een nieuwe AWS-service of zelfs Solidity en slimme contracten programmeren). Misschien enkele handige aanpassingen om uw IT-professional soepeler te laten werken, mijn mening over een actueel onderwerp of een aantal veel voorkomende veiligheidsmiscepties die ik tegenkwam en mijn ervaringen. Misschien zal ik ook overwegen om een ​​aantal reisfotoboeken te publiceren, want ik hou van reizen in Oost-Azië, waar ik meestal minstens een maand per jaar doorbreng.
 
-Als u nieuwsgierig bent naar de waarde die ik uw moet brengen, u kunt al abonneren op mijn [RSS-feed](https://aristidebouix.cloud/nl/index.xml) en me volgen op [Twitter](http://twitter.com/Kharkovlanok) of [Mastodon](https://mastodon.cloud/@abouix). Aarzel niet om opmerkingen of en feedback te geven over publicaties die u leuk of niet leuk vindt, of stuur me een [e-mail](mailto:webmaster@aristidebouix.cloud) voor specifieke suggesties.
+Als u nieuwsgierig bent naar de waarde die ik uw moet brengen, u kunt al abonneren op mijn [RSS-feed](https://aristidebouix.cloud/nl/index.xml) en me volgen op [Twitter](http://twitter.com/ArisBee_Cloud) of [Mastodon](https://mastodon.cloud/@abouix). Aarzel niet om opmerkingen of en feedback te geven over publicaties die u leuk of niet leuk vindt, of stuur me een [e-mail](mailto:webmaster@aristidebouix.cloud) voor specifieke suggesties.
 
 ### Kunnen we veilig praten?
 
@@ -68,8 +68,5 @@ GYfDohHh42SVMtFMsW81dBNqm38KCHZQCi
 <center>
 <b>Gulden</b>
 </center>
-
-
-
 
 \- Aristide
