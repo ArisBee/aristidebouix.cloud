@@ -56,7 +56,7 @@ And it's here where I've done a dumb mistake in the rush, I wanted to find a vis
 	</tr>
 </table>
 
-Ultimately the one trillion dollar coins would be one-third bigger than an Airbus A380 which has a total hold volume of [1134\\(m^3\\)](https://www.aerospace-technology.com/projects/airbus_a380/). Thus not as big as Manhattan's giant towers, but already quite significant in size.
+Ultimately the one trillion dollar coin would be one-third bigger than an Airbus A380 which has a total hold volume of [1134\\(m^3\\)](https://www.aerospace-technology.com/projects/airbus_a380/). Thus not as big as Manhattan's giant towers, but already quite significant in size.
 
 ![Airbus A380](/post/a-cube/airbus.png)
 
