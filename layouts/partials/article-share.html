@@ -1,13 +1,7 @@
 <ul class="share-buttons">
     <li>{{ i18n "title" }}</li>
     <li>
-        <a class="icon-vkontakte" href="https://vk.com/share.php?url={{ .Permalink }}&title={{ .Title }}" onclick="window.open(this.href, 'vkontakte-share','width=580,height=296');return false;" title="{{ i18n "vkontakte" }}"></a>
-    </li>
-    <li>
         <a class="icon-twitter" href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}&via=ArisvdZ&hashtags={{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="{{ i18n "twitter" }}"></a>
-    </li>
-    <li>
-        <a class="icon-gplus" href="https://plus.google.com/share?url={{ .Permalink }}" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="{{ i18n "gplus" }}"></a>
     </li>
     <li>
         <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}" onclick="window.open(this.href, 'linkedin-share', 'width=600,height=494');return false;" title="{{ i18n "linkedin" }}"></a>

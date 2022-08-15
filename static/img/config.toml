@@ -80,9 +80,13 @@ defaultContentLanguageInSubdir = true
 
 	[params.logo]
 		url = "/img/profile-image.jpg"
+		width = 127
+		height = 40
 
 	[params.image]
 		url = "/img/desk.jpg"
+		width = 800
+		height = 600
   
   [privacy]
   # Privacy tweaks for used buil-in default templates
