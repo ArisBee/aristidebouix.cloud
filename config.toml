@@ -76,7 +76,7 @@ defaultContentLanguageInSubdir = true
     # Set up your BCH donation address
     donation = "qr9svcxpzkzg25d9xsyytl4yvk9v5xxs0yy0mu6h0g"
   [params.twitter]
-		username = "ArisBee_Cloud"
+		username = "ArisvdZ"
 
 	[params.logo]
 		url = "/img/profile-image.jpg"
@@ -113,7 +113,7 @@ defaultContentLanguageInSubdir = true
     # Add your social network accounts to the profile section on the left
     # by entering your username. The links to your account will be
     # create automatically.
-    twitter   = "ArisBee_Cloud"
+    twitter   = "ArisvdZ"
     facebook  = ""
     linkedin  = "aristide-bouix"
     behance   = ""
