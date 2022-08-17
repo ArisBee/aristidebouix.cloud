@@ -9,12 +9,12 @@
 <meta name="twitter:image" content="https://aristidebouix.cloud{{ with .Site.Params.image }}{{ .url | absURL }}{{ else }}https://aristidebouix.cloud{{ with .Site.Params.image }}{{ .url | absURL }}{{ end }}{{ end }}" />
   {{- end }}
 {{- else -}}
-  {{ if ge (.Param "abo.image.width") 300 -}}
+  {{ if ge (.Param "params.image.width") 300 -}}
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://aristidebouix.cloud{{ .Param "abo.image.url" | absURL }}"/>
+<meta name="twitter:image" content="https://aristidebouix.cloud{{ .Param "params.image.url" | absURL }}"/>
   {{- else -}}
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:image" content="https://aristidebouix.cloud{{ with .Param "abo.image" }}{{ .url | absURL }}{{ else }}https://aristidebouix.cloud{{ with .Site.Params.image }}{{ .url | absURL }}{{ end }}{{ end }}" />
+<meta name="twitter:image" content="https://aristidebouix.cloud{{ with .Param "params.image" }}{{ .url | absURL }}{{ else }}https://aristidebouix.cloud{{ with .Site.Params.image }}{{ .url | absURL }}{{ end }}{{ end }}" />
   {{- end }}
 {{- end }}
 {{ with .Site.Params.twitter -}}
