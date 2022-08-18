@@ -20,7 +20,7 @@ Which really means that I need to keep a good knowledge of available products an
 
 According to where my inspiration will drive me, I cannot guarantee what will be the exact content of this blog; it can go very technical on a new technology I'm playing with ( for instance containers and orchestrators, a new Cloud service or even Blockchain and smart contracts programming ). Maybe some helpful tweaks to make your IT professional work smoother, my opinion on a hot actuality topic or some common security misconceptions I came across and my return of experience. Perhaps I'll also consider publishing some travel photo books as I love traveling in East Asia where I usually spend at least a month every year.
 
-If you're curious to discover what value I have to bring you, you can already subscribe to my [RSS feed](https://aristidebouix.cloud/en/index.xml) and follow me on [Twitter](http://twitter.com/ArisBee_Cloud) or [Mastodon](https://mastodon.cloud/@abouix). Don't hesitate to let comments and feedbacks on publications you like or don't like or send me an [email](mailto:webmaster@aristidebouix.cloud) for particular suggestions.
+If you're curious to discover what value I have to bring you, you can already subscribe to my [RSS feed](https://aristidebouix.cloud/en/index.xml) and follow me on [Twitter](http://twitter.com/ArisvdZ) or [Mastodon](https://mastodon.cloud/@abouix). Don't hesitate to let comments and feedbacks on publications you like or don't like or send me an [email](mailto:webmaster@aristidebouix.cloud) for particular suggestions.
 
 ### Can we chat securely?
 

@@ -57,7 +57,7 @@ Note that Debian official [Tor package](https://packages.debian.org/stretch/tor)
 
 This is quite important as the version 2 of the Tor server software only support Hidden services v2 that won't be relayed by the network in a future Tor release, see the below announcement on Twitter:
 
-{{< tweet 1286731153957777409 >}}
+{{< tweet user="ArisvdZ" id="1286731153957777409" >}}
 
 Now configure the hidden service in `/etc/tor/torrc` under `This section is just for location-hidden services` by uncommenting/rewriting the following lines [^2]:
 
@@ -157,7 +157,7 @@ kill -9 <Id>
 
 Okido, now you have a Tor version of your site running, but how to let your users using Tor know about it? Well, the Tor project happens to have released a convenient new feature called onion-location:
 
-{{< tweet 1269593196956352514 >}}
+{{< tweet user="ArisvdZ" id="1269593196956352514" >}}
 
 To summarize, you can either add a meta tag in your website HTML header or return an Onion-Location HTTP reader from your server to let every Tor client accessing your website know the new .onion address. In my specific case, the HTTP response header added to my Lambda@Edge function [^4] wasn't always recognized. Also, I added the following meta tag:
 

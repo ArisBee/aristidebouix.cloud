@@ -25,12 +25,12 @@ Maar waarom is de Tor-browser zo traag? Het is omdat het een ander versleuteld e
 
 ![Verschillende soorten Tor-relais](/post/tor-proxy/torcircuit.png "Bron: https://medium.com/coinmonks/tor-nodes-explained-580808c29e2d")
 
-* **Entry relay node**: Eerste relaisnode in het Tor-circuit. Als zodanig zien ze de identiteit van de client en kunnen ze het doelwit zijn van externe aanvallers. Ze zijn publiekelijk bekend en staan op de website van het Tor project, ook gemakkelijk te blokkeren en te censureren.
-* **Middle relay node**: Tussentijdse hoop dat ze gecodeerde gegevens binnen het netwerk doorgeven, ze kennen alleen dalende en stijgende knooppunten en kunnen verbinding maken met zowel een Entry als Relay node.
-* **Exit relay node**: Deze nodes fungeren als bruggen tussen het Tor-netwerk en het internet. Uitgaand verkeer wordt op een overzichtelijke website gezien als afkomstig van deze nodes. Ook zijn ze openbaar bekend en worden ze vaak getagd door de meeste online webservice- en beveiligingsteams.
-* **Bridge relay node**: Entry relay node die niet openbaar wordt vermeld op de Tor project website, als zodanig zijn ze moeilijker te blokkeren door ISP en overheden en passen vrij goed, en zijn zeer handig voor een individu op een Business strip in landen die je niet zou bezoeken voor het toerisme.
+- **Entry relay node**: Eerste relaisnode in het Tor-circuit. Als zodanig zien ze de identiteit van de client en kunnen ze het doelwit zijn van externe aanvallers. Ze zijn publiekelijk bekend en staan op de website van het Tor project, ook gemakkelijk te blokkeren en te censureren.
+- **Middle relay node**: Tussentijdse hoop dat ze gecodeerde gegevens binnen het netwerk doorgeven, ze kennen alleen dalende en stijgende knooppunten en kunnen verbinding maken met zowel een Entry als Relay node.
+- **Exit relay node**: Deze nodes fungeren als bruggen tussen het Tor-netwerk en het internet. Uitgaand verkeer wordt op een overzichtelijke website gezien als afkomstig van deze nodes. Ook zijn ze openbaar bekend en worden ze vaak getagd door de meeste online webservice- en beveiligingsteams.
+- **Bridge relay node**: Entry relay node die niet openbaar wordt vermeld op de Tor project website, als zodanig zijn ze moeilijker te blokkeren door ISP en overheden en passen vrij goed, en zijn zeer handig voor een individu op een Business strip in landen die je niet zou bezoeken voor het toerisme.
 
-In een traditionele Client-Server HTTP-verbinding moeten ze beiden zich wederzijds authenticeren om de server gegevens naar de client te laten sturen. Tijdens de verbinding met een Tor Hidden Service communiceren de server en de client over een tussenliggend rendez-vous punt in het netwerk, zodat er geen informatie direct wordt verzonden. Dit is belangrijk omdat het voorkomt dat op de server persoonlijk identificeerbare gegevens zoals User-Agent of IP-adres worden vastgelegd. 
+In een traditionele Client-Server HTTP-verbinding moeten ze beiden zich wederzijds authenticeren om de server gegevens naar de client te laten sturen. Tijdens de verbinding met een Tor Hidden Service communiceren de server en de client over een tussenliggend rendez-vous punt in het netwerk, zodat er geen informatie direct wordt verzonden. Dit is belangrijk omdat het voorkomt dat op de server persoonlijk identificeerbare gegevens zoals User-Agent of IP-adres worden vastgelegd.
 
 # Waarom doet het er toe
 
@@ -51,13 +51,13 @@ Eenmaal ingelogd in de VPS, installeer je de Tor software, voor de rest van deze
 ```bash
 apt update
 apt install tor
-``` 
+```
 
 Merk op dat Debian official [Tor package](https://packages.debian.org/stretch/tor) te laat is met de huidige release, dus u zult de officiële pakketlijst die door het Tor projectteam wordt onderhouden moeten toevoegen aan uw apt bronlijstbestand, zie de volgende [tutorial](https://support.torproject.org/apt/tor-deb-repo/).
 
-Dit is vrij belangrijk omdat de versie 2 van de Tor server software alleen Verborgen diensten v2 ondersteunt die niet door het netwerk zullen worden doorgegeven in een toekomstige Tor release, zie de onderstaande aankondiging op Twitter: 
+Dit is vrij belangrijk omdat de versie 2 van de Tor server software alleen Verborgen diensten v2 ondersteunt die niet door het netwerk zullen worden doorgegeven in een toekomstige Tor release, zie de onderstaande aankondiging op Twitter:
 
-{{< tweet 1286731153957777409 >}}
+{{< tweet user="ArisvdZ" id="1286731153957777409" >}}
 
 Configureer nu de verborgen dienst in `/etc/tor/torrc` onder `Deze sectie is alleen voor locatieverborgen diensten` door de volgende regels [^2] niet te becommentariëren/herschrijven:
 
@@ -98,10 +98,10 @@ Oké, laten we nu de laatste nvm en NodeJs LTS versie installeren (12.18.1 op he
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 #Controleer de laatste NodeJS LTS-versie:
-nvm ls-remote 
+nvm ls-remote
 nvm install 12.18.1
 #Maak de nieuwste NodeJS LTS versie de standaard versie:
-nvm alias default 12.18.1 
+nvm alias default 12.18.1
 nvm use defaut
 ```
 
@@ -118,14 +118,20 @@ Voeg nu de clearnet-versie van uw website toe in het bestand index.js zoals hier
 
 ```javascript
 // We laden het express pakket
-const express = require('express');
+const express = require("express");
 // We maken een express applicatie
 const app = express();
 // We maken een proxy-object op basis van het http-proxy-middleware pakket en de klasse
-const { createProxyMiddleware } = require('http-proxy-middleware');
+const { createProxyMiddleware } = require("http-proxy-middleware");
 
-// Onze app input stream een doelwebsite, verander het doel naar uw gemak  
-app.use('/', createProxyMiddleware({ target: 'https://aristidebouix.cloud', changeOrigin: true }));
+// Onze app input stream een doelwebsite, verander het doel naar uw gemak
+app.use(
+  "/",
+  createProxyMiddleware({
+    target: "https://aristidebouix.cloud",
+    changeOrigin: true,
+  })
+);
 // Onze app is toegankelijk via localhost port 3000 waar onze hidden service is
 app.listen(3000);
 ```
@@ -136,7 +142,7 @@ Natuurlijk, je zou kunnen verbeteren met wat foutafhandeling, maar ik hou het ko
 node index.js &
 ```
 
-Wanneer u nu het vorige .onion-adres oproept via de Tor-browser, zou u nu bijvoorbeeld deze website moeten zien, deze huidige website: [http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/](http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/) 
+Wanneer u nu het vorige .onion-adres oproept via de Tor-browser, zou u nu bijvoorbeeld deze website moeten zien, deze huidige website: [http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/](http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/)
 
 Als u wilt stoppen en de proxy opnieuw wilt starten, kunt u dat als volgt doen:
 
@@ -151,12 +157,15 @@ kill -9 <Id>
 
 Okido, nu heb je een Tor-versie van je site draaien, maar hoe laat je je gebruikers met behulp van Tor weten? Nou, het Tor project heeft toevallig een handige nieuwe functie uitgebracht, genaamd Onion-locatie:
 
-{{< tweet 1269593196956352514 >}}
+{{< tweet user="ArisvdZ" id="1269593196956352514" >}}
 
 Om samen te vatten, kunt u ofwel een meta-tag toevoegen in de HTML-header van uw website of een Onion-Location HTTP-header van uw server terugsturen om elke Tor-client die uw website bezoekt het nieuwe .ui-adres te laten weten. In mijn specifieke geval werd de HTTP-responsehead die aan mijn Lambda@Edge-functie [^4] werd toegevoegd, niet altijd herkend. Ook heb ik de volgende meta-tag toegevoegd:
 
 ```html
-<meta http-equiv="onion-location" content="http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/ " />
+<meta
+  http-equiv="onion-location"
+  content="http://ymglrht2hmgdlt66oaztz4zpcuyzf7e773zgndcwz2msjgvkoysr7kid.onion/ "
+/>
 ```
 
 ![Tor Locatie](/post/tor-proxy/torLocation.jpeg)
