@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Ari's Tech /blog"
+title = "Ari's /blog"
 # Define how many pages appear per site
 paginate = 5
 # Enable comments powered by Disqus by entering your disqus shortname
