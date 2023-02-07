@@ -12,6 +12,7 @@ To come ...
 
 # External Publications
 
+- [Migrating a static Hugo blog to AWS Amplify](https://dev.to/catawiki/migrating-a-static-hugo-blog-to-aws-amplify-2nnb#fn6) (Catawiki blog, November 2021)
 - [Managing Identities and Access in the Amazon Public Cloud](https://www.compact.nl/articles/managing-identities-and-access-in-the-amazon-public-cloud/) (Compact, April 2021)
 - [The Risks of open-source software for corporate use](https://www.compact.nl/articles/the-risks-of-open-source-software-for-corporate-use/) (Compact, April 2020)
 - [Euronext: Leveraging the Cloud for Big Data Analytics](https://www.devoteam.com/newsroom/leveraging-cloud-big-data-analytics-rex-form-euronext/) ( Devoteam Blog, September 2018 )
@@ -28,9 +29,10 @@ To come ...
 
 # Quotes / Involvment
 
+- Contributed to the CSA's [Six Pillars of DevSecOps - Pragmatic Implementation](https://cloudsecurityalliance.org/artifacts/six-pillars-devsecops-pragmatic-implementation)(December 2022)
 - Contributed to the CSA's [Cloud Incident Response Framework](https://cloudsecurityalliance.org/artifacts/cloud-incident-response-framework/)(April 2021)
-- Supervizing the Research Project: [“An exploration for the suitability of Fawkes for practical applications“](https://homepages.staff.os3.nl/~delaat/rp/2020-2021/p56/presentation.pdf) ( OS3 Master, January 2021 )
-- Supervizing the Research Project: [“Signing containers images with Docker Notary“](https://homepages.staff.os3.nl/~delaat/rp/2020-2021/p34/presentation.pdf) ( OS3 Master, January 2021 )
-- Supervizing the Research Project: [“A performance comparison of the implementations WireGuard, strongSwan and OpenVPN in a one Gbit/s environment“](https://homepages.staff.os3.nl/~delaat/rp/2019-2020/p71/presentation.pdf) ( OS3 Master, June 2020 )
-- Supervizing the Research Project: [“Security Evaluation on Amazon Web Services’ REST API Authentication Protocol Signature Version 4“](https://work.delaat.net/rp/2019-2020/p65/presentation.pdf) ( OS3 Master, January 2020 )
+- Supervizing the Research Project: [“An exploration for the suitability of Fawkes for practical applications“](https://rp.os3.nl/2020-2021/p56/presentation.pdf) ( OS3 Master, January 2021 )
+- Supervizing the Research Project: [“Signing containers images with Docker Notary“](https://rp.os3.nl/2020-2021/p34/presentation.pdf) ( OS3 Master, January 2021 )
+- Supervizing the Research Project: [“A performance comparison of the implementations WireGuard, strongSwan and OpenVPN in a one Gbit/s environment“](https://rp.os3.nl/2019-2020/p71/presentation.pdf) ( OS3 Master, June 2020 )
+- Supervizing the Research Project: [“Security Evaluation on Amazon Web Services’ REST API Authentication Protocol Signature Version 4“](https://rp.os3.nl/2019-2020/p65/presentation.pdf) ( OS3 Master, January 2020 )
 - [“Лаборатория Касперского” заморозила сотрудничество с Европолом в знак протеста против решения Евросоюза к компании](https://ekozlov.ru/2018/06/laboratorija-kasperskogo-zamorozila-sotrudnichestvo-s-evropolom-v-znak-protesta-protiv-reshenija-evrosojuza-k-kompanii/) ( June 2018, yes I like and recommend Kaspersky's products )
