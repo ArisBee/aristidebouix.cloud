@@ -60,6 +60,7 @@ Here a list of links to different web resources on various subjects.
 - [AWS roadmap](https://github.com/aws/containers-roadmap/projects/1): Roadmap of forecasted features about containers on AWS
 - [Lazydocker](https://github.com/jesseduffield/lazydocker): A terminal UI to make the docker-compose experience close to the K8S console
 - [K8S prod best practices](https://learnk8s.io/production-best-practices): A mandatory checklist
+- [K8SYAML](https://k8syaml.com/): A web tool to easily generate K8S yaml config files
 
 ## AWS Cloud
 
@@ -87,6 +88,7 @@ Here a list of links to different web resources on various subjects.
 - [KilledbyGoogle](https://killedbygoogle.com/): Because all Google's product have an EOL, I'm waiting to find GCP, Gmail and Playstore here.
 - [Azure checklist](https://azurechecklist.com/): Azure migration readiness checklist
 - [MS Licensing](https://github.com/AaronDinnage/Licensing): Only clear visualization of the licenses for MicroSoft Cloud products I could find. No idea why it's not on their official website.
+- [Permissions Cloud](https://aws.permissions.cloud/): A great web tool to verify Cloud API permissions.
 
 ## Web Development
 
@@ -98,7 +100,7 @@ Here a list of links to different web resources on various subjects.
 - [Unsplash](https://unsplash.com/): My go-to when I need free-usable images
 - [SRI Hash Generator](https://www.srihash.org/): Subresource Integrity Hash Generator
 
-## DevOps
+## DevSecOps / AppSec
 
 - [12factors](https://12factor.net): A **MUST** read in the field of applicative development
 - [Choose a license](https://choosealicense.com/): Useful resource made by Github to help you to choose the right license for your open source project
@@ -108,6 +110,7 @@ Here a list of links to different web resources on various subjects.
 - [eng-practices](https://google.github.io/eng-practices/review/reviewer/): Google's best practices for code review
 - [SSL Configuration Generator](https://ssl-config.mozilla.org/): Online tool from Mozilla to help generating SSL config files
 - [Dangit](https://dangitgit.com/): Cheatsheet to fix Git mistakes
+- [AppSecMap](https://appsecmap.com/): A great visualisation to select vendors for everything you might need in AppSec
 
 ## Enterprise Security
 
@@ -145,6 +148,7 @@ Here a list of links to different web resources on various subjects.
 - [WalletsRecovery](https://walletsrecovery.org/): Tool to help recovering a broken Bitcoin wallet
 - [Bitcoin Privacy Guide](https://bitcoiner.guide/privacy/): An extensive Guide to Bitcoin privacy
 - [Bitcoin Uptime Tracker](https://www.buybitcoinworldwide.com/bitcoin-uptime/): Track Bitcoin network uptime (I wish all my applications would be that resilient)
+- [KYCP](https://kycp.org/): A tool provided by OxT research team to verify the anonymity of each sat included in a BTC transaction
 
 ## Ethereum & DeFi
 
