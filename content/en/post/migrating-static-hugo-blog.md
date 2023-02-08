@@ -5,7 +5,7 @@ description: "In this post I describe the historical technical considerations th
 categories: ["cloud"]
 tags: ["migration", "refactoring", "aws", "hosting"]
 type: "posts"
-audio: "risk-analysis.mp3"
+audio: "amplify.mp3"
 abo:
   image:
     url: "post/thumbnails/amplify.jpeg"
@@ -117,6 +117,7 @@ $0.0120 per 10,000 HTTPS Requests</td>
 	</tr>
 </table>
 <br></br>
+
 One of the strengths of AWS Amplify is that costs are fixed for any region you operate in. This can prove more beneficial in certain geographic areas such as Asia Pacific, Australia or South America, where outbound traffic varies between $0.11 to $0.12.[^7]
 
 Here is a more literal comparison based on my website costs for July 2021:
