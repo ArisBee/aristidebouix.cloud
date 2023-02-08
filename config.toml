@@ -64,7 +64,7 @@ defaultContentLanguageInSubdir = true
   # Link custom assets relative to /static
     avatar = "img/profile-image.jpg"
     header_background = "img/desk.jpg"
-    header_title = "Ari's Tech /blog"
+    header_title = "Ari's /blog"
     copyright = "Aristide Bouix -- Powered by [Hugo](http://gohugo.io)"
 	images = ["/img/desk.jpg"]
   custom_css = []
