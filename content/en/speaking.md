@@ -29,6 +29,7 @@ To come ...
 
 # Quotes / Involvment
 
+- Was interviewed on our experience with the Orca platform at [Orca Customer Advisory Board 2022](https://orca.security/resources/case-studies/catawiki-testimonial/)(February 2023)
 - Contributed to the CSA's [Six Pillars of DevSecOps - Pragmatic Implementation](https://cloudsecurityalliance.org/artifacts/six-pillars-devsecops-pragmatic-implementation)(December 2022)
 - Contributed to the CSA's [Cloud Incident Response Framework](https://cloudsecurityalliance.org/artifacts/cloud-incident-response-framework/)(April 2021)
 - Supervizing the Research Project: [“An exploration for the suitability of Fawkes for practical applications“](https://rp.os3.nl/2020-2021/p56/presentation.pdf) ( OS3 Master, January 2021 )
