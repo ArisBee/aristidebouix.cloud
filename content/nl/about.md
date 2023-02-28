@@ -35,11 +35,6 @@ Aarzel niet om een ​​bier me kopen:
 <br></br>
 
 <center>
-<a class="btn home" href="https://www.paypal.me/ABouix" title="donate-paypal" target="_blank" style="background-color: #2997D8; color: white; font-weight: bold;">Paypal</a>
-</center>
-<br></br>
-
-<center>
 <img src="/img/qrcode1.png" alt="BTC address">
 </center>
 <center>
@@ -57,16 +52,6 @@ bitcoincash:qr9svcxpzkzg25d9xsyytl4yvk9v5xxs0yy0mu6h0g
 </center>
 <center>
 <b>BCH</b>
-</center>
-
-<center>
-<img src="/img/qrcode3.png" alt="NLG address">
-</center>
-<center>
-GYfDohHh42SVMtFMsW81dBNqm38KCHZQCi
-</center>
-<center>
-<b>Gulden</b>
 </center>
 
 \- Aristide

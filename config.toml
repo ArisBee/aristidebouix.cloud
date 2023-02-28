@@ -74,7 +74,7 @@ defaultContentLanguageInSubdir = true
     google_analytics = "G-M5QMME4DD1"
 
     # Set up your BCH donation address
-    donation = "qr9svcxpzkzg25d9xsyytl4yvk9v5xxs0yy0mu6h0g"
+    donation = "bitcoincash:qrlp6d4cje9t2j6fr83pdm9alwhqrfaytu6atzjcjl"
   [params.twitter]
 		username = "ArisvdZ"
 
