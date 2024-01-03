@@ -13,9 +13,17 @@ abo:
     height: 600
 ---
 
+🎉 Happy New Year 2024, Everyone! 🍾
+
+ It's been a while since my last update here– how's everyone kicking off the new year? I hope it's been fantastic for you all. As for me, I rang in 2024 in style with a glass of Veuve Clicquot Millesime. 
+
+![New Year pic](/post/hec/clicquot.jpeg#center)
+
+In today's post, I'm excited to share what's been brewing on my end as we step into this fresh year. So, grab your coffee (or maybe some leftover New Year's champagne), and let's dive in!
+
 # Introduction and Intitial Considerations
 
-It's been a while since my last update here. I'm still at Catawiki, heading Product Security, and I've recently stepped up to a Staff Security Engineer role. As I climb the career ladder, I find my interests broadening beyond just the technical side. I'm increasingly drawn to understanding the long-term business trajectory and how my work aligns with it. While crafting top-notch products remains a priority, I'm venturing into realms like corporate finance, digital marketing, people management, and branding. This shift is especially relevant in smaller VC-backed companies where it is often require to lead and align stakeholders with different backgrounds and objectives.
+I'm still heading Product Security at Catawiki, and have recently stepped up to a Staff Security Engineer role. As I climb the career ladder, I find my interests broadening beyond just the technical side. I'm increasingly drawn to understanding the long-term business trajectory and how my work aligns with it. While crafting top-notch products remains a priority, I'm venturing into realms like corporate finance, digital marketing, people management, and branding. This shift is especially relevant in smaller VC-backed companies where it is often require to lead and align stakeholders with different backgrounds and objectives.
 
 With this evolution in mind, I've set a new challenge for myself in 2024. Instead of pursuing an nth cloud certification, I'm diving into an Executive MBA. My goals are twofold: firstly, to bolster my business acumen beyond engineering, particularly in new industries with both a founder and investor lense. Secondly, to connect with like-minded professionals who, while sharing a drive for ownership and change, offer diverse perspectives.
 
