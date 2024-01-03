@@ -12,6 +12,7 @@ To come ...
 
 # External Publications
 
+- [Catawiki’s DevSecOps journey](https://medium.com/catawiki-engineering/catawikis-devsecops-journey-c826fe7a9030) (Catawiki blog, July 2023)
 - [Migrating a static Hugo blog to AWS Amplify](https://dev.to/catawiki/migrating-a-static-hugo-blog-to-aws-amplify-2nnb#fn6) (Catawiki blog, November 2021)
 - [Managing Identities and Access in the Amazon Public Cloud](https://www.compact.nl/articles/managing-identities-and-access-in-the-amazon-public-cloud/) (Compact, April 2021)
 - [The Risks of open-source software for corporate use](https://www.compact.nl/articles/the-risks-of-open-source-software-for-corporate-use/) (Compact, April 2020)
@@ -21,6 +22,7 @@ To come ...
 
 # Public Slides & Conferences
 
+- [2023-06-21 CSA DevSecOps meetup](https://github.com/ArisBee/meetups/blob/master/2023-06-21%20CSA%20DevSecOps%20meetup.pdf) ( Dutch Chapter CSA mettup, June 2023 )
 - [2020-11-9 Network Security](https://github.com/ArisBee/meetups/blob/master/2020-11-9%20Network%20Security.pdf) (Online class for @Maxim Nyansa IT Solutions' (NGO) Network Security Bootcamp )
 - [2019-10-18 Security Operations Management](https://github.com/ArisBee/meetups/blob/master/2019-10-18%20Security%20Operations%20Management.pdf) (Online webinar for @Maxim Nyansa IT Solutions, NGO)
 - [2018-06-04 Introduction to Container Security](https://github.com/ArisBee/meetups/blob/master/2018-06-04%20Introduction%20to%20Container%20Security.pdf) (@Devoteam Secusphere meetup)
