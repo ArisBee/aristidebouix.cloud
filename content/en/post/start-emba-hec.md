@@ -1,21 +1,21 @@
 ---
 title: "Embarking on an EMBA Journey at HEC"
 date: "2024-01-03"
-description: "First post describing my EMBA experience in French Grande Ecole"
+description: "Embarking on an EMBA Adventure: Insights and Stories from a Tech Professional's Leap into Business Leadership."
 categories: ["blog"]
 tags: ["managment", "grande ecole", "emba"]
 type: "posts"
 audio: "amplify.mp3"
 abo:
   image:
-    url: "/post/hec/hec-start.png"
+    url: "/post/hec/hec-start-en.png"
     width: 800
     height: 600
 ---
 
 🎉 Happy New Year 2024, Everyone! 🍾
 
- It's been a while since my last update here– how's everyone kicking off the new year? I hope it's been fantastic for you all. As for me, I rang in 2024 in style with a glass of Veuve Clicquot Millesime. 
+ It's been a while since my last update here– how's everyone kicking off the new year? I hope it's been fantastic for you all. As for me, I rang in 2024 in style with a glass of Veuve Clicquot Millesime 2015. 
 
 ![New Year pic](/post/hec/clicquot.jpeg#center)
 
@@ -42,4 +42,5 @@ The application process was a trip down memory lane, retrieving old academic rec
 ![HEC candidature list](/post/hec/hec-list.png#center "A glance to the application's requirements")
 
 That sums up my admission journey. My advice? Start 3-4 months in advance to allow for any hiccups. For instance, I encountered a snag with one document in my application, which I only discovered after following up with the school, causing me to miss the October admission jury!
+
 This is just the beginning of my EMBA journey, and I plan to share more over the next two years, in both English and French (repurposing the dormant Dutch section of my blog). Stay tuned for more posts like this! :satisfied:

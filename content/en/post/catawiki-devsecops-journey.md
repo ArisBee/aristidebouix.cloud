@@ -5,7 +5,7 @@ description: "In this post I describe our approach to secure software developmen
 categories: ["software development"]
 tags: ["devsecops", "ci/cd", "program management"]
 type: "posts"
-audio: "hec-start.mp3"
+audio: "catawiki-devsecops.mp3"
 abo:
   image:
     url: "/post/catawiki-devsecops/catawiki-cicd.png"
