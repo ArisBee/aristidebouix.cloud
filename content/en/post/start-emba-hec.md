@@ -2,13 +2,13 @@
 title: "Embarking on an EMBA Journey at HEC"
 date: "2024-01-03"
 description: "Embarking on an EMBA Adventure: Insights and Stories from a Tech Professional's Leap into Business Leadership."
-categories: ["blog"]
+categories: ["blogging"]
 tags: ["managment", "grande ecole", "emba"]
 type: "posts"
-audio: "amplify.mp3"
+audio: "hec-start-en.mp3"
 abo:
   image:
-    url: "/post/hec/hec-start-en.png"
+    url: "/post/hec/hec-start.png"
     width: 800
     height: 600
 ---

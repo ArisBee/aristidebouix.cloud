@@ -2,7 +2,7 @@
 title: "En route pour l'EMBA à HEC"
 date: "2024-01-03"
 description: "Une aventure EMBA : réflexions et récits d'un professionnel de la technologie"
-categories: ["blog"]
+categories: ["blogging"]
 tags: ["managment", "grande ecole", "emba"]
 type: "posts"
 audio: "hec-start-fr.mp3"
