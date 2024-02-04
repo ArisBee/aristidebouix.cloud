@@ -6,7 +6,7 @@
 {{/*- range $i, $hit := .Site.AllPages -*/}}
 {{- range $i, $hit := where (where .Site.AllPages "Type" "in" (slice "posts")) "IsPage" true -}}
   {{- $dot := . -}}
-  {{- if or (and ($hit.IsDescendant $section) (and (not $hit.Draft) (not $hit.Params.private))) $section.IsHome -}}
+  {{- if and (eq $hit.Lang "en") (or (and ($hit.IsDescendant $section) (and (not $hit.Draft) (not $hit.Params.private))) $section.IsHome) -}}
 	{{/* Set the hit's objectID */}}
 	{{- .Scratch.SetInMap $hit.File.Path "objectID" $hit.File.UniqueID -}}
 	{{/* Store built-in page variables in iterable object */}}
