@@ -1,6 +1,6 @@
 ---
 title: "My First Day at HEC's Executive MBA: A Blend of History, Strategy, and Networking"
-date: "2024-02-04"
+date: "2024-02-06"
 description: "My First Day at HEC's Executive MBA: A Blend of History, Strategy, and Networking"
 categories: ["blogging"]
 tags: ["managment", "grande ecole", "emba"]
