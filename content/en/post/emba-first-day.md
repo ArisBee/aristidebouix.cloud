@@ -44,7 +44,7 @@ The day culminated with a toast and dinner at the historical HEC Castle - a form
 
 ![Networking dinner at HEC Castle](/post/hec/dinner.jpeg#center 'HEC castle’s dining room')
 
-This remarkable day was just the beginning of a transformative journey. Stay tuned for more insights and experiences from my EMBA adventure. For real-time updates, don’t forget to follow me on Twitter and Instagram. Your comments and feedback are always welcome!
+This remarkable day was just the beginning of a transformative journey. Stay tuned for more insights and experiences from my EMBA adventure. For real-time updates, don’t forget to follow me on [Twitter](https://twitter.com/ArisvdZ) and [Instagram](https://www.instagram.com/arisbcollection/). Your comments and feedback are always welcome!
 
 À bientôt, Aristide 🌟📚🌐
 
