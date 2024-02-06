@@ -14,13 +14,13 @@ abo:
 
 Hello, dear readers!
 
-Today, I'm thrilled to share with you an exhilarating journey I embarked upon - my first day at the Executive MBA program at HEC Jouy-en-Josas. This day wasn't just about academic rigor; it was a fusion of history, strategy, and a remarkable dinner at a place steeped in royal heritage!
+Today, I'm thrilled to share an exhilarating journey I embarked upon—my first day in the Executive MBA program at HEC Paris, located in Jouy-en-Josas, a small town near the Versailles castle. This day was more than just about academic rigor; it was a blend of history, strategy, and a remarkable dinner in a setting rich with royal heritage!
 
 ![HEC Castle](/post/hec/castle.jpeg#center)
 
 # The Morning Buzz: Meeting the Cohort
 
-Our day began bright and early at 8:30 AM, setting the standard for all in-class days to come. Most of the program is conducted online, so when it's time for an in-person session, you know you're in for some short nights :sleepy:. It was exhilarating to finally meet my fellow participants face-to-face. The group was a vibrant tapestry of professionals, ranging from sales and banking to engineering and HR experts, enriched by a healthy mix of French and international voices.
+Our day kicked off bright and early at 8:30 AM, establishing the pace for all future in-class days. While most of the program is conducted online, there are a few weeks of onsite sessions every couple of months. These onsite weeks are quite intense, often leading to short nights in-between evening events and early morning classes :sleepy:. Meeting my fellow participants in person was exhilarating. The group formed a vibrant tapestry of professionals from diverse fields such as sales, finance, engineering, and HR, further enriched by a healthy mix of French and international voices.
 
 The welcoming talk at 9 AM offered more than just an introduction; it provided a deep dive into HEC's illustrious history. Learning about its origins dating back to Napoleon III and its evolution into a modern campus under Charles de Gaulle was truly fascinating.
 
@@ -32,16 +32,16 @@ What struck me the most was the ethos of the EMBA program. We were not mere stud
 
 In the afternoon, we plunged into a business simulation overseen by Professor [Olivier Tabatoni](http://www.oliviertabatoni.com/). It was a practical test of strategy, involving decisions to grow a classic manufacturing company over four business quarters. I took the lead in preparing for the first quarter, focusing on a balanced approach to product rollout.
 
-Despite a rocky start due to a team member's ambitious pricing strategy, we quickly adapted. My strategy of minimizing inventory and careful observation paid off, allowing us to dominate the market, especially with our new product. This experience not only tested our analytical skills but also highlighted the importance of flexibility and rapid adaptation in business.
+Despite a rocky start caused by a team member's ambitious pricing strategy, we quickly adapted. My approach of minimizing inventory and maintaining careful observation paid dividends, enabling us to dominate the market, particularly with our new product. This experience not only allowed us to test our analytical skills in a playful manner but also underscored the importance of flexibility and rapid adaptation in business. Winning the simulation brought us accolades and bolstered our reputation within the cohort.
+At the end of the simulation, Professor Tabatoni revealed that none of us had adopted the optimal strategy. The goal was not so much to achieve market dominance but rather to invest heavily in sales teams and R&D to capture a new, larger market. This revelation highlighted the multifaceted nature of business strategy, which will be the focus of our second in-class module in April.
 
-Winning the simulation earned us accolades and a reputation within the cohort. It was a testament to the power of quiet analysis, strategic thinking, and the ability to guide a team with informed decisions.
+![The Heart of Business](/post/hec/dbook.avif#center “My team received an extra book from Hubert Joly, the former CEO of Best Buy and an HEC graduate, for winning the game. By the end of this first module, I had almost received one book per day. ”)
 
 # An Evening of Elegance and Networking
 
 The day culminated with a toast and dinner at the historical HEC Castle - a former haunt of Louis XIV. The setting was as regal as it was conducive to networking and sharing experiences with my peers.
-Professor Olivier's revelation that the simulation's purpose extended beyond market dominance, encompassing investments in sales teams and R&D, was an eye-opener. It underscored the multifaceted nature of business strategy which will be the subject of our second in-class module in April.
 
-![Networking dinner at HEC Castle](/post/hec/dinner.jpeg#center)
+![Networking dinner at HEC Castle](/post/hec/dinner.jpeg#center “HEC castle’s dining room”)
 
 This remarkable day was just the beginning of a transformative journey. Stay tuned for more insights and experiences from my EMBA adventure. For real-time updates, don’t forget to follow me on Twitter and Instagram. Your comments and feedback are always welcome!
 
