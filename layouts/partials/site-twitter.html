@@ -1,22 +1,24 @@
-<meta name="twitter:title" content="{{ .Title }}"/>
-<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
-{{ if .IsHome -}}
-  {{ if ge .Site.Params.image.width 300 -}}
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://aristidebouix.cloud{{ .Site.Params.image.url | absURL }}"/>
-  {{- else -}}
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:image" content="https://aristidebouix.cloud{{ with .Site.Params.image }}{{ .url | absURL }}{{ else }}https://aristidebouix.cloud{{ with .Site.Params.image }}{{ .url | absURL }}{{ end }}{{ end }}" />
-  {{- end }}
-{{- else -}}
-  {{ if ge (.Param "params.image.width") 300 -}}
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://aristidebouix.cloud{{ .Param "params.image.url" | absURL }}"/>
-  {{- else -}}
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:image" content="https://aristidebouix.cloud{{ with .Param "params.image" }}{{ .url | absURL }}{{ else }}https://aristidebouix.cloud{{ with .Site.Params.image }}{{ .url | absURL }}{{ end }}{{ end }}" />
-  {{- end }}
-{{- end }}
-{{ with .Site.Params.twitter -}}
-<meta name="twitter:site" content="@{{ .username }}"/>
-{{- end }}
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+
+{{ if .IsHome }}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="{{ .Site.Params.image.url | absURL }}" />
+{{ else }}
+  {{ if isset .Params "abo" }}
+    {{ if isset .Params.abo "image" }}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="{{ .Params.abo.image.url | absURL }}" />
+    {{ else }}
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="{{ .Site.Params.image.url | absURL }}" />
+    {{ end }}
+  {{ else }}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="{{ .Site.Params.image.url | absURL }}" />
+  {{ end }}
+{{ end }}
+
+{{ with .Site.Params.twitter }}
+<meta name="twitter:site" content="@{{ .username }}" />
+{{ end }}
