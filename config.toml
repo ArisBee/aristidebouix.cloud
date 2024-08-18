@@ -14,6 +14,7 @@ googleAnalytics = "UA-114578285-1"
 enableEmoji = true
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
+ignoreErrors = ["error-remote-getjson"]
 
 [Languages]
   [Languages.en]
