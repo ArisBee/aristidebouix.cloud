@@ -1,5 +1,5 @@
 ---
-title: "Timeless Lessons from Daegu: A Journey of Humility and Passion"
+title: "Timeless Lessons from Daegu: A Journey of Modesty and Passion"
 date: "2024-08-18"
 description: "A spontaneous visit to a watch repair atelier in Daegu offered me more than just a service for a family heirloom."
 categories: ["blogging"]
@@ -42,7 +42,7 @@ I wanted my watch serviced and showed it to him. After examining it for a while,
 
 ![A great experience](/post/korea/back_junduk.jpg#center "Picture with Back Jun-duk")
 
-I left my watch for a full check-up and fixes, and on the way back home, I felt inspired. I was quite impressed by his humility and down-to-earth attitude despite his skills and lifelong experience.
+I left my watch for a full check-up and fixes, and on the way back home, I felt inspired. I was quite impressed by his humbleness and down-to-earth attitude despite his skills and lifelong experience.
 These days, many people brag about small achievements, but this man, with his exceptional talent, remained humble. His ability to keep working passionately at his age, which seemed to be around 70, was truly inspiring.
 
 ![Mr Back at work](/post/korea/at_work.jpg#center "Mr Back in his workshop")
@@ -51,6 +51,6 @@ This experience brought me some ideas about what I might be doing at his age. Fo
 
 ![Me in Daegu](/post/korea/me.jpg#center "An unexpected stop")
 
-Carrying this inspiration with my watch every day, I am reminded of the values of humility, passion, and lifelong learning. Whether in our professional or personal lives, these values can lead to a fulfilling and impactful journey.
+Carrying this inspiration with my watch every day, I am reminded of the values of genuity, passion, and lifelong learning. Whether in our professional or personal lives, these values can lead to a fulfilling and impactful journey.
 
 
