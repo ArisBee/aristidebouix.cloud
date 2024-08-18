@@ -53,6 +53,6 @@ This experience brought me some ideas about what I might be doing at his age. Fo
 
 Carrying this inspiration with my watch every day, I am reminded of the values of genuity, passion, and lifelong learning. Whether in our professional or personal lives, these values can lead to a fulfilling and impactful journey.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.0032374462767!2d128.59363197604176!3d35.87343751939115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e3db0b08b35d%3A0xb38f2fcf437091e8!2z67CV7KSA642VIOuqhe2SiOyLnOqzhOyImOumrCDri6zsnbjsnZgg7KeRIC0g6rO17J247IKs!5e0!3m2!1sen!2snl!4v1724013266950!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.0032374462767!2d128.59363197604176!3d35.87343751939115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e3db0b08b35d%3A0xb38f2fcf437091e8!2z67CV7KSA642VIOuqhe2SiOyLnOqzhOyImOumrCDri6zsnbjsnZgg7KeRIC0g6rO17J247IKs!5e0!3m2!1sen!2snl!4v1724013266950!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 
 
