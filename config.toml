@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Ari's /blog"
+title = "Code & Capital: The Aristide Approach"
 # Define how many pages appear per site
 paginate = 5
 # Enable comments powered by Disqus by entering your disqus shortname
@@ -65,7 +65,7 @@ ignoreErrors = ["error-remote-getjson"]
   # Link custom assets relative to /static
     avatar = "img/profile-image.jpg"
     header_background = "img/desk.jpg"
-    header_title = "Ari's /blog"
+    header_title = "Code & Capital: The Aristide Approach"
     copyright = "Aristide Bouix -- Powered by [Hugo](http://gohugo.io)"
 	images = ["/img/desk.jpg"]
   custom_css = []
