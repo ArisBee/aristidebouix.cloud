@@ -26,7 +26,7 @@ ignoreErrors = ["error-remote-getjson"]
     weight = 20
 	contentDir = "content/nl"
     [Languages.nl.params]
-      site_description = "Dit is mijn geweldige Hugo-powered blog, hier zal ik u maandelijkse tech-trucs en tweaks geven om u tijd, productiviteit en privacy te sparen. Klaar voor een ritje?"
+      site_description = "In this space, I dive into the intersection of technology, cybersecurity, and business growth, sharing insights and strategies from my personal experience. If you're curious about how cybersecurity fuels innovation or how venture capital is shaping the future of tech, this is the place for you."
       location = "Ergens in de Cloud"
 	  site_author_description = "Cloud Security Hero"
 	  LanguageName = "Nederlands"
@@ -57,7 +57,7 @@ ignoreErrors = ["error-remote-getjson"]
 	
 [params]
   site_author = "Aristide Bouix"
-  site_description = "This is my awesome Hugo powered blog, here I will give you monthly tech tricks and tweaks to save your time, productivity as well as privacy. Ready for a ride?"
+  site_description = "In this space, I dive into the intersection of technology, cybersecurity, and business growth, sharing insights and strategies from my personal experience. If you're curious about how cybersecurity fuels innovation or how venture capital is shaping the future of tech, this is the place for you."
   location = "Somewhere in the Cloud"
 	site_author_description = "Cloud Security Hero"
 	disableSearch = false
