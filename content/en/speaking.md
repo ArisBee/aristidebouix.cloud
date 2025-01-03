@@ -12,6 +12,7 @@ To come ...
 
 # External Publications
 
+- [An Open Source Odyssey at Catawiki](https://medium.com/catawiki-engineering/an-open-source-odyssey-at-catawiki-cfc7dc59259a) (Catawiki blog, March 2024)
 - [Catawiki’s DevSecOps journey](https://medium.com/catawiki-engineering/catawikis-devsecops-journey-c826fe7a9030) (Catawiki blog, July 2023)
 - [Migrating a static Hugo blog to AWS Amplify](https://dev.to/catawiki/migrating-a-static-hugo-blog-to-aws-amplify-2nnb#fn6) (Catawiki blog, November 2021)
 - [Managing Identities and Access in the Amazon Public Cloud](https://www.compact.nl/articles/managing-identities-and-access-in-the-amazon-public-cloud/) (Compact, April 2021)
@@ -22,6 +23,7 @@ To come ...
 
 # Public Slides & Conferences
 
+- [2024-09-28 TorontoJS 2024 - Frontend Security](https://github.com/ArisBee/meetups/blob/master/2024-09-28%20TorontoJS%202024%20-%20Frontend%20Security.pdf) (TorontoJS meetup, September 2024)
 - [2023-06-21 CSA DevSecOps meetup](https://github.com/ArisBee/meetups/blob/master/2023-06-21%20CSA%20DevSecOps%20meetup.pdf) ( Dutch Chapter CSA mettup, June 2023 )
 - [2020-11-9 Network Security](https://github.com/ArisBee/meetups/blob/master/2020-11-9%20Network%20Security.pdf) (Online class for @Maxim Nyansa IT Solutions' (NGO) Network Security Bootcamp )
 - [2019-10-18 Security Operations Management](https://github.com/ArisBee/meetups/blob/master/2019-10-18%20Security%20Operations%20Management.pdf) (Online webinar for @Maxim Nyansa IT Solutions, NGO)
@@ -31,6 +33,10 @@ To come ...
 
 # Quotes / Involvment
 
+- Was interviewed over my [EMBA experience at HEC](https://www.hec.edu/en/executive-mba/news/aristide-bouix-bridging-technical-expertise-and-business-skills-hec-paris-emba) (November 2024)
+- Was interviewed on our [Security Crowdsourcing program with BugCrowd](https://www.intelligentciso.com/2024/10/04/catawiki-maximises-security-roi-with-bugcrowd-pen-test-and-bug-bounty/) (October 2024)
+- Was interviewed during the [opening day of HEC EMBA January 2024 intake](https://www.hec.edu/en/executive-mba/news/new-beginnings-hec-paris-executive-mba-embarking-journey-growth-and-diversity)(April 2024)
+- Contributed to the CSA's [Six Pillars of DevSecOps - Collaboration and Integration](https://cloudsecurityalliance.org/artifacts/six-pillars-devsecops-collaboration-integration)(February 2024) 
 - Was interviewed on our experience with the Orca platform at [Orca Customer Advisory Board 2022](https://orca.security/resources/case-studies/catawiki-testimonial/)(February 2023)
 - Contributed to the CSA's [Six Pillars of DevSecOps - Pragmatic Implementation](https://cloudsecurityalliance.org/artifacts/six-pillars-devsecops-pragmatic-implementation)(December 2022)
 - Contributed to the CSA's [Cloud Incident Response Framework](https://cloudsecurityalliance.org/artifacts/cloud-incident-response-framework/)(April 2021)
