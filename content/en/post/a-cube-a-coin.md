@@ -15,13 +15,13 @@ abo:
 
 Last week stood out by some popular discussions about minting a particularly huge bullion coin to avoid a Debt Ceiling default of the United States of America's Federal Government. More precisely, a one Trillion USD platinum bullion coin. While I'm not an expert on American right nor do I have any opinion about if such a project is wise or not, contrary to what some Twitter commenters suggested to my thread:
 
-{{< tweet user="ArisvdZ" id="1443964261479456780" >}}
+{{< x user="ArisvdZ" id="1443964261479456780" >}}
 
 To be fair, I genuinely wondered what such a bullion coin would look like if it was indeed made of one Trillion dollars worth of platinum at the current valuation. In case you're more interested in the former legal aspects of such a project, I encourage you to go through this more law-oriented [blog post](https://prestonbyrne.com/2021/09/30/illegalcoin/) from Preston Byrne, who, as an American lawyer, is I suppose much better informed about American rights than I'll ever be.
 
 Therefore, in this blog post, I'm going through where this idea came from, how I made my calculation and initially done a volume conversion mistake. It's also an occasion for me to test more in-depth this \\(\LaTeX\\) javascript [library](https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js) [^1]. Now that our workplace is set, let's follow the sheep:
 
-{{< tweet user="ArisvdZ" id="1443968938631745539" >}}
+{{< x user="ArisvdZ" id="1443968938631745539" >}}
 
 This whole idea started with an old article from [Wired 2013](https://www.wired.com/2013/01/1-trillion-platinum-coin/), I ended up there by googling something like "$1T platimium coin volume", and while the article is a bit old to be relevant, my main source of annoyance was:
 

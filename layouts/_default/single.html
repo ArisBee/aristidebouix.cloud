@@ -30,7 +30,7 @@
 
         </article>
 		
-        {{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
+        {{ if (not (eq .Site.Params.disqusShortname "")) | and (not .Params.disableComments) }}
         <div class="comments">
             <h3>{{ i18n "comments" }}</h3>
             {{ template "_internal/disqus.html" . }}
