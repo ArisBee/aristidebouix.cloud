@@ -14,6 +14,9 @@
         <link href="{{ "post/index.xml" | absURL }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
         <link href="{{ "post/index.xml" | absURL }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
         <link rel="stylesheet" href="{{ "css/styles.min.css" | absURL }}">
+        {{ if .Site.Params.mailchimp.enabled }}
+        <link rel="stylesheet" href="{{ "css/mailchimp-popup.css" | absURL }}">
+        {{ end }}
         <link rel="icon" type="image/png" href="/favicon-48x48.png" sizes="48x48" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="shortcut icon" href="/favicon.ico" />
@@ -45,4 +48,17 @@
         }
         </style>
         <link rel="stylesheet" type="text/css" href="{{ "css/cookieconsent.min.css" | absURL }}" />
+        
+        {{ if .Site.Params.mailchimp.enabled }}
+        <script>
+        // Mailchimp Popup Configuration
+        window.mailchimpConfig = {
+            showDelay: 30000,           // Show after 30 seconds
+            exitIntentEnabled: true,    // Show on exit intent
+            scrollPercentage: 70,       // Show after scrolling 70%
+            cookieExpiry: 30,          // Remember choice for 30 days
+            maxDisplays: 3             // Maximum times to show
+        };
+        </script>
+        {{ end }}
     </head>

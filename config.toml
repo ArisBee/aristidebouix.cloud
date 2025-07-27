@@ -45,6 +45,15 @@ ignoreErrors = ["error-remote-getjson"]
     changefreq = "weekly"
     priority = 0.5
 
+# Mailchimp Newsletter Integration
+[params.mailchimp]
+    enabled = false  # Set to true to enable the popup
+    action_url = ""  # Your Mailchimp form action URL (see setup instructions)
+    popup_title = "Stay in the Loop!"
+    popup_description = "Get the latest insights on technology, cybersecurity, and business growth delivered to your inbox."
+    disclaimer = "No spam, unsubscribe anytime."
+    honeypot_name = "b_mailchimp_honeypot"
+
 # Needed to render HTML in markdown files
 [markup]
   [markup.goldmark]

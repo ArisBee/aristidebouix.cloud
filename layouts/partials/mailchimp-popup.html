@@ -1,0 +1,59 @@
+<!-- Mailchimp Popup Modal -->
+<div id="mailchimp-popup" class="mailchimp-popup-overlay" aria-hidden="true">
+  <div class="mailchimp-popup-container" role="dialog" aria-labelledby="popup-title" aria-describedby="popup-description">
+    <button class="mailchimp-popup-close" aria-label="Close newsletter signup">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    
+    <div class="mailchimp-popup-content">
+      <div class="mailchimp-popup-header">
+        <h2 id="popup-title">{{ .Site.Params.mailchimp.popup_title | default "Stay in the Loop!" }}</h2>
+        <p id="popup-description">{{ .Site.Params.mailchimp.popup_description | default "Get the latest insights on technology, cybersecurity, and business growth delivered to your inbox." }}</p>
+      </div>
+      
+      <form class="mailchimp-popup-form" action="{{ .Site.Params.mailchimp.action_url }}" method="post" target="_blank">
+        <div class="mailchimp-popup-input-group">
+          <input 
+            type="email" 
+            name="EMAIL" 
+            placeholder="Enter your email address" 
+            required 
+            class="mailchimp-popup-email-input"
+            aria-label="Email address"
+          >
+          <button type="submit" class="mailchimp-popup-submit">
+            <span class="submit-text">Subscribe</span>
+            <span class="submit-loading" style="display: none;">
+              <svg class="spinner" width="20" height="20" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="32" stroke-dashoffset="32">
+                  <animate attributeName="stroke-dashoffset" dur="2s" values="32;0" repeatCount="indefinite"/>
+                  <animate attributeName="stroke-dasharray" dur="2s" values="0 32;16 16;0 32;0 32" repeatCount="indefinite"/>
+                </circle>
+              </svg>
+            </span>
+          </button>
+        </div>
+        
+        <!-- Mailchimp honeypot -->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="{{ .Site.Params.mailchimp.honeypot_name | default "b_mailchimp_honeypot" }}" tabindex="-1" value="">
+        </div>
+        
+        <!-- Additional Mailchimp fields if needed -->
+        {{ if .Site.Params.mailchimp.additional_fields }}
+          {{ range .Site.Params.mailchimp.additional_fields }}
+            <input type="hidden" name="{{ .name }}" value="{{ .value }}">
+          {{ end }}
+        {{ end }}
+      </form>
+      
+      <div class="mailchimp-popup-footer">
+        <p class="mailchimp-popup-disclaimer">{{ .Site.Params.mailchimp.disclaimer | default "No spam, unsubscribe anytime." }}</p>
+        <button class="mailchimp-popup-no-thanks">No thanks</button>
+      </div>
+    </div>
+  </div>
+</div>
