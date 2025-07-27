@@ -27,8 +27,18 @@
 	</div>  
 </footer>
 
+<!-- Mailchimp Popup -->
+{{ if .Site.Params.mailchimp.enabled }}
+{{ partial "mailchimp-popup.html" . }}
+{{ end }}
+
 <script src="{{ "js/plugins.js" | absURL }}"></script>
 <script src="{{ "js/cookieconsent.min.js" | absURL }}" data-cfasync="false"></script>
+
+<!-- Mailchimp Popup -->
+{{ if .Site.Params.mailchimp.enabled }}
+<script src="{{ "js/mailchimp-popup.js" | absURL }}"></script>
+{{ end }}
 <script>
 window.cookieconsent.initialise({
   "palette": {
